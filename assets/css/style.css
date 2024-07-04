@@ -28,7 +28,6 @@ header {
     color: white;
     text-shadow: 0 2px 2px black;
     height: 100px;
-    font-size: 150%;
     display: flex;
     position: fixed;
     width: 100%;
@@ -39,5 +38,12 @@ header {
 
 /*Main Content*/
 main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 100px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+    background-color: red;
 }
