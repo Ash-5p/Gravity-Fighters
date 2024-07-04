@@ -19,4 +19,25 @@ body {
 h1,h2,h3 {
     font-family: "Anton SC", sans-serif;
     text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Header */
+header {
+    background-color: rgb(88, 88, 88);
+    color: white;
+    text-shadow: 0 2px 2px black;
+    height: 100px;
+    font-size: 150%;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*Main Content*/
+main {
+    margin-top: 100px;
 }
