@@ -20,21 +20,44 @@ h1,h2,h3 {
     font-family: "Anton SC", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
+    text-shadow: 0 2px 2px black;
 }
 
 /* Header */
 header {
     background-color: rgb(88, 88, 88);
     color: white;
-    text-shadow: 0 2px 2px black;
     height: 100px;
     display: flex;
     position: fixed;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
     
 }
+
+header > div {
+    align-self: center;
+}
+
+header > nav {
+    width: 450px;
+    align-self: center;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 10px 0 10px;
+}
+
 
 /*Main Content*/
 main {
