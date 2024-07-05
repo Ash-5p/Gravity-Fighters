@@ -78,3 +78,24 @@ main {
     flex-direction: column;
     background-color: red;
 }
+
+/*Footer*/
+footer {
+    
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width:768px) {
+
+
+}
+
+/* Media query: Laptops and larger (992px and up) */
+@media screen and (min-width:992px) {
+
+    /* Header */
+    header {
+        height: 125px;
+        font-size: 125%;
+    }
+}
