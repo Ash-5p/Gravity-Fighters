@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* General Styles*/
 body {
     display: flex;
@@ -16,7 +17,9 @@ body {
     color: rgb(77, 77, 77);
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: "Anton SC", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -26,7 +29,7 @@ h1,h2,h3 {
 /* Header */
 header {
     background-color: rgb(88, 88, 88);
-    color: white;
+    color: #fafafa;
     box-shadow: 0 2px 2px #404040;
     height: 100px;
     display: flex;
@@ -36,11 +39,11 @@ header {
     flex-direction: column;
 }
 
-header > div {
+header>div {
     align-self: center;
 }
 
-header > nav {
+header>nav {
     width: 450px;
     align-self: center;
 }
@@ -51,19 +54,24 @@ header a {
 
 }
 
+header li:hover {
+    color: red;
+}
+
 .menu {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     padding: 5px 10px 0 10px;
 }
+
 /* Makes dumbell icon appear next to active page on navbar */
 .menu i {
     display: none;
 }
 
 .active i {
-   display: inherit;
+    display: inherit;
 }
 
 
@@ -76,19 +84,37 @@ main {
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
-    background-color: red;
+    background-color: beige;
 }
 
 /*Footer*/
-footer {
-    
+footer{
+    background-color: #585858;
+    color: #fafafa;
+    text-align: center;
+    display: block;
+    padding-top: 5px;
 }
+
+#social-networks {
+    text-align: center;
+    padding: 5px 20px 20px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #585858;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #fafafa;
+    text-shadow: 0 2px 2px black;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width:768px) {
-
-
-}
+@media screen and (min-width:768px) {}
 
 /* Media query: Laptops and larger (992px and up) */
 @media screen and (min-width:992px) {
@@ -97,5 +123,9 @@ footer {
     header {
         height: 125px;
         font-size: 125%;
+    }
+    /* Pushes main section down to accomodate taller header */
+    main {
+        margin-top: 125px;
     }
 }
