@@ -27,13 +27,13 @@ h1,h2,h3 {
 header {
     background-color: rgb(88, 88, 88);
     color: white;
+    box-shadow: 0 2px 2px #404040;
     height: 100px;
     display: flex;
     position: fixed;
     width: 100%;
     justify-content: space-evenly;
     flex-direction: column;
-    
 }
 
 header > div {
@@ -51,11 +51,19 @@ header a {
 
 }
 
-#menu {
+.menu {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     padding: 5px 10px 0 10px;
+}
+/* Makes dumbell icon appear next to active page on navbar */
+.menu i {
+    display: none;
+}
+
+.active i {
+   display: inherit;
 }
 
 
