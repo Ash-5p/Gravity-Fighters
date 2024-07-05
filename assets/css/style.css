@@ -37,6 +37,7 @@ header {
     width: 100%;
     justify-content: space-evenly;
     flex-direction: column;
+    /*opacity: 90%;*/
 }
 
 header>div {
@@ -88,7 +89,7 @@ main {
 }
 
 /*Footer*/
-footer{
+footer {
     background-color: #585858;
     color: #fafafa;
     text-align: center;
@@ -96,9 +97,16 @@ footer{
     padding-top: 5px;
 }
 
+#footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*
 #social-networks {
     text-align: center;
-    padding: 5px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -110,6 +118,43 @@ footer{
     padding: 5%;
     color: #fafafa;
     text-shadow: 0 2px 2px black;
+}*/
+
+#social-networks {
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    background-color: #585858;
+    height: 144px;
+    width: 200px;
+}
+
+
+#social-networks i {
+    font-size: 200%;
+    padding: 15px 5px;
+    color: #fafafa;
+    text-shadow: 0 2px 2px black;
+}
+
+#gf-logo {
+    color: #fafafa;
+    border: 2px solid #fafafa;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    box-shadow: 0 2px 2px black;
+}
+
+#gf-logo i {
+    padding: 20px 3px;
 }
 
 
@@ -124,6 +169,7 @@ footer{
         height: 125px;
         font-size: 125%;
     }
+
     /* Pushes main section down to accomodate taller header */
     main {
         margin-top: 125px;
