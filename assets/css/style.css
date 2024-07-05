@@ -42,6 +42,10 @@ header {
 
 header>div {
     align-self: center;
+    border: 2px solid #fafafa;
+    box-shadow: 0 2px 2px black;
+    padding: 0px 10px;
+    border-radius: 15px;
 }
 
 header>nav {
@@ -103,23 +107,6 @@ footer {
     justify-content: space-around;
 }
 
-/*
-#social-networks {
-    text-align: center;
-    padding: 30px 20px 20px 20px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    background-color: #585858;
-}
-
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #fafafa;
-    text-shadow: 0 2px 2px black;
-}*/
-
 #social-networks {
     text-align: center;
     padding: 5px;
@@ -157,9 +144,53 @@ footer {
     padding: 20px 3px;
 }
 
+/*Hides the full size footer logo on mobile phones*/
+#full-sized-footer-logo {
+    display: none;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width:768px) {}
+@media screen and (min-width:768px) {
+
+    /* Footer */
+    footer>h3 {
+        font-size: 150%;
+    }
+
+    #full-sized-footer-logo {
+        display: inherit;
+        border: 2px solid #fafafa;
+        box-shadow: 0 2px 2px black;
+        padding: 0px 10px;
+        border-radius: 15px;
+        align-items: center;
+        /* Stop the full size logo from overhanging at the left at at 768px */
+        margin-left: 40px;
+    }
+
+    #mobile-footer-logo {
+        display: none;
+    }
+
+    #gf-logo {
+        border: none;
+        box-shadow: none;
+    }
+
+    #social-networks {
+        justify-content: space-around;
+        align-items: center;
+        padding: 5px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        list-style-type: none;
+        background-color: #585858;
+        font-size: 150%;
+        height: 112px;
+        width: 50%;
+    }
+}
 
 /* Media query: Laptops and larger (992px and up) */
 @media screen and (min-width:992px) {
