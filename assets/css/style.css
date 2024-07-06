@@ -93,7 +93,7 @@ main {
 
 /* Hero Section */
 #hero {
-    background: url(../images/hero-mobile.webp) no-repeat 60% 20%;
+    background: url(../images/hero.webp) no-repeat 60% 20%;
     background-color: #0e0762;
     background-size: 50em;
     position: relative;
@@ -216,7 +216,7 @@ footer {
 
     /* Hero */
     #hero {
-        background: url(../images/hero-mobile.webp) no-repeat center 20%;
+        background: url(../images/hero.webp) no-repeat center 20%;
         background-size: 65em;
         height: 500px;
     }
@@ -268,8 +268,16 @@ footer {
 @media screen and (min-width:1440px) {
 
     #hero {
-        background: url(../images/hero-mobile.webp) no-repeat center 30%;
-        background-size: 130em;
+        background: url(../images/hero.webp) no-repeat center 30%;
+        background-size: 100%;
         height: 55em;
+    }
+}
+
+/* Media query: Wide Resolution PC screens (2000px and up) */
+@media screen and (min-width:2000px) {
+
+    #hero {
+        height: 60em;
     }
 }

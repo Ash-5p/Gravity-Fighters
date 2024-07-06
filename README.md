@@ -343,8 +343,7 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 
 | Source | Location | Notes |
 | --- | --- | --- |
-| [Alpha Coders](https://wall.alphacoders.com/big.php?i=1001460) | index.html (screens ---px and above) | Hero image
-| [Alpha Coders](https://wall.alphacoders.com/big.php?i=1001192) | index.html (screens sizes below 768px) | Hero image
+| [Alpha Coders](https://wall.alphacoders.com/big.php?i=1001192) | index.html| Hero image
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
