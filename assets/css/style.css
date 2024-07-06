@@ -114,7 +114,7 @@ main {
 }
 
 /* About Gravity Fighters Section */
-#about {
+#about, #lifting-types {
     margin: 10px;
 }
 
@@ -124,6 +124,10 @@ main {
 }
 
 /* Types of lifting Section */
+
+.lifting-class {
+    margin-bottom: 10px;
+}
 
 #lifting-types h3 {
     text-shadow: none;
