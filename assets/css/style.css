@@ -37,6 +37,7 @@ header {
     width: 100%;
     justify-content: space-evenly;
     flex-direction: column;
+    z-index: 99;
 }
 
 header>div {
@@ -184,7 +185,7 @@ footer {
         padding: 0px 10px;
         border-radius: 15px;
         align-items: center;
-        /* Stop the full size logo from overhanging at the left at at 768px */
+        /* Stop the full size logo from overhanging at the left at 768px */
         margin-left: 40px;
     }
 
@@ -209,6 +210,23 @@ footer {
         height: 112px;
         width: 50%;
     }
+    /* Changes to alternate hero image at 768px */
+
+    /* Main */
+
+    /* Hero */
+    #hero {
+        background: url(../images/hero-mobile.webp) no-repeat center 20%;
+        background-size: 65em;
+        height: 500px;
+    }
+    
+    #hero-text {
+        font-size: 100%;
+        width: 300px;
+        left: 100px;
+        bottom: 150px;
+        padding: 20px;
 }
 
 /* Media query: Laptops and larger (992px and up) */
@@ -223,5 +241,35 @@ footer {
     /* Pushes main section down to accomodate taller header */
     main {
         margin-top: 125px;
+    }
+}
+
+/* Media query: Larger laptops and PC screens (1024px and up) */
+@media screen and (min-width:1024px) {
+    
+    /* Main */
+
+    /* Hero */
+    #hero {
+        background-size: 90em;
+        height: 700px;
+    }
+
+    #hero-text {
+        font-size: 120%;
+        width: 400px;
+        left: 100px;
+        bottom: 300px;
+        padding: 30px;
+    }
+}
+
+/* Media query: Wide Resolution PC screens (1440px and up) */
+@media screen and (min-width:1440px) {
+
+    #hero {
+        background: url(../images/hero-mobile.webp) no-repeat center 30%;
+        background-size: 130em;
+        height: 55em;
     }
 }
