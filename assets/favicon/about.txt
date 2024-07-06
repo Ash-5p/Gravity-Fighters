@@ -1,3 +1,5 @@
 This favicon was generated using the favicon.io png converter (https://favicon.io/favicon-converter/).
 
-The graphic was created by myself using GIMP.
+- Graphics Title: gravity fighters.png
+- Graphics Author: Myself (Ashley Preece)
+- Graphics Source: https://ash-5p.github.io/Gravity-Fighters/ (edited using GIMP)

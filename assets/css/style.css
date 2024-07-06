@@ -37,7 +37,6 @@ header {
     width: 100%;
     justify-content: space-evenly;
     flex-direction: column;
-    /*opacity: 90%;*/
 }
 
 header>div {
@@ -89,7 +88,27 @@ main {
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
-    background-color: beige;
+}
+
+/* Hero Section */
+#hero {
+    background: url(../images/hero-mobile.webp) no-repeat 60% 20%;
+    background-color: #0e0762;
+    background-size: 50em;
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+#hero-text {
+    color: #fafafa;
+    position: absolute;
+    background-color: rgba(88, 88, 88, 0.8);
+    font-size: 75%;
+    width: 230px;
+    bottom: 150px;
+    left: 5px;
+    padding: 10px 5px;
 }
 
 /*Footer*/
