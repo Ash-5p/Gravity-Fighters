@@ -92,6 +92,11 @@ main {
     flex-direction: column;
 }
 
+.no-text-shadow {
+    text-align: center;
+    text-shadow: none;
+}
+
 /* Hero Section */
 #hero {
     background: url(../images/hero.webp) no-repeat 60% 20%;
@@ -114,13 +119,9 @@ main {
 }
 
 /* About Gravity Fighters Section */
-#about, #lifting-types {
+#about,
+#lifting-types {
     margin: 10px;
-}
-
-#about h2 {
-    text-align: center;
-    text-shadow: none;
 }
 
 /* Types of lifting Section */
@@ -131,6 +132,43 @@ main {
 
 #lifting-types h3 {
     text-shadow: none;
+}
+
+
+.lifting-class {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Bodybuilding */
+#bodybuilding-img {
+    background: url(../images/bodybuilder.webp) no-repeat center center;
+    background-size: 25em;
+    width: 95%;
+    height: 265px;
+    margin: 10px;
+    align-self: center;
+}
+
+/* Powerlifting */
+#powerlifting-img {
+    background: url(../images/powerlifter.webp) no-repeat center center;
+    background-size: 25em;
+    width: 95%;
+    height: 265px;
+    margin: 10px;
+    align-self: center;
+}
+
+/* Weightlifting */
+#weightlifting-img {
+    background: url(../images/olympic-weightlifter.webp) no-repeat center center;
+    background-size: 25em;
+    width: 95%;
+    height: 265px;
+    margin: 10px;
+    align-self: center;
 }
 
 /*Footer*/

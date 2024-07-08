@@ -344,6 +344,9 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Alpha Coders](https://wall.alphacoders.com/big.php?i=1001192) | index.html| Hero image
+| [Alpha Coders](https://wall.alphacoders.com/big.php?i=1076955) | index.html| Bodybuilder Image (bodybuilder.webp)
+| [furrloveov](https://wallpapers.com/images/hd/man-with-large-muscles-weight-lifting-00g0gqx7ucmdosro.jpg) | index.html| Powerlifter Image (powerlifter.webp)
+| [Wallpapers.com](https://wallpapers.com/images/hd/passionate-fitness-junkie-weight-lifting-4hpw4d9d9k0ljvos.jpg) | index.html| Weightlifter Image (olympic-weightlifter.webp)
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
