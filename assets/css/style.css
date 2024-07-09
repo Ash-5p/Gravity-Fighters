@@ -293,85 +293,11 @@ footer {
         padding: 20px;
     }
 
-    /* Media query: Laptops and larger (992px and up) */
-    @media screen and (min-width:992px) {
-
-        /* Header */
-        header {
-            height: 125px;
-            font-size: 125%;
-        }
-
-        /* Pushes main section down to accomodate taller header */
-        main {
-            margin-top: 125px;
-        }
-    }
-
-    /* Media query: Larger laptops and PC screens (1024px and up) */
-    @media screen and (min-width:1024px) {
-
-        /* Main */
-        /* main p,
-        main h3 {
-            font-size: 150%;
-        }
-        
-        main h2 {
-            font-size: 250%;
-        }*/
-
-        hr {
-            display: none;
-        }
-
-        #about,
+    #about,
         #lifting-types>h2,
         #lifting-types>p {
             text-align: center;
             margin: 10px 40px;
-        }
-
-        #about h2,
-        #lifting-types h2 {
-            font-size: 250%;
-        }
-
-        #about h3,
-        #lifting-types h3 {
-            font-size: 200%;
-        }
-
-        #about p,
-        #lifting-types p {
-            font-size: 150%;
-        }
-
-        /* Hero */
-        #hero {
-            background-size: 90em;
-            height: 700px;
-        }
-
-        #hero-text {
-            font-size: 120%;
-            width: 400px;
-            left: 100px;
-            bottom: 300px;
-            padding: 30px;
-        }
-
-        /* Types of lifting section */
-        .lifting-class {
-            flex-basis: 500px;
-            padding: 20px;
-            text-align: center;
-        }
-
-        #lifting-types {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-around;
         }
 
         #bodybuilding-img {
@@ -401,6 +327,96 @@ footer {
             border-radius: 50%;
         }
 
+    /* Media query: Laptops and larger (992px and up) */
+    @media screen and (min-width:992px) {
+
+        /* Header */
+        header {
+            height: 125px;
+            font-size: 125%;
+        }
+
+        /* Pushes main section down to accomodate taller header */
+        main {
+            margin-top: 125px;
+        }
+    }
+
+    /* Media query: Larger laptops and PC screens (1024px and up) */
+    @media screen and (min-width:1024px) {
+
+        /* Main */
+
+        /* Hero */
+        #hero {
+            background-size: 90em;
+            height: 700px;
+        }
+
+        #hero-text {
+            font-size: 120%;
+            width: 400px;
+            left: 100px;
+            bottom: 300px;
+            padding: 30px;
+        }
+
+        .content p {
+            font-size: 150%;
+        }
+        
+        .content h2 {
+            font-size: 250%;  
+        }
+
+        .content h3 {
+            font-size: 200%;  
+        }
+
+        hr {
+            display: none;
+        }
+
+        /* Types of lifting section */
+        .lifting-class {
+            flex-basis: 500px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #lifting-types {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+        }
+/*
+        #bodybuilding-img {
+            background-position-x: 58%;
+            background-size: 30em;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        #powerlifting-img {
+            background-position-x: 50%;
+            background-size: 30em;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        #weightlifting-img {
+            background-position: 65% 80%;
+            background-size: 30em;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+*/
     }
 
     /* Media query: Wide Resolution PC screens (1440px and up) */
