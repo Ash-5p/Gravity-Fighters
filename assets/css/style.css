@@ -141,6 +141,11 @@ main {
     flex-direction: column;
 }
 
+.lifting-class h3,
+.lifting-class div {
+    align-self: center;
+}
+
 /* Bodybuilding */
 #bodybuilding-img {
     background: url(../images/bodybuilder.webp) no-repeat center center;
@@ -148,7 +153,6 @@ main {
     width: 95%;
     height: 265px;
     margin: 10px;
-    align-self: center;
 }
 
 /* Powerlifting */
@@ -158,7 +162,6 @@ main {
     width: 95%;
     height: 265px;
     margin: 10px;
-    align-self: center;
 }
 
 /* Weightlifting */
@@ -168,7 +171,6 @@ main {
     width: 95%;
     height: 265px;
     margin: 10px;
-    align-self: center;
 }
 
 /*Footer*/
@@ -310,6 +312,15 @@ footer {
     @media screen and (min-width:1024px) {
 
         /* Main */
+        main p,
+        main h2,
+        main h3 {
+            font-size: 150%;
+        }
+
+        hr {
+            display: none;
+        }
 
         /* Hero */
         #hero {
@@ -324,6 +335,47 @@ footer {
             bottom: 300px;
             padding: 30px;
         }
+
+        /* Types of lifting section */
+        .lifting-class {
+            flex-basis: 500px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #lifting-types {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+        }
+
+        #bodybuilding-img {
+            background-position-x: 58%;
+            background-size: 30em;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        #powerlifting-img {
+            background-position-x: 50%;
+            background-size: 30em;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        #weightlifting-img {
+            background-position: 65% 80%;
+            background-size: 30em;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
     }
 
     /* Media query: Wide Resolution PC screens (1440px and up) */
