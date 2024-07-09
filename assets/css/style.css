@@ -312,14 +312,39 @@ footer {
     @media screen and (min-width:1024px) {
 
         /* Main */
-        main p,
-        main h2,
+        /* main p,
         main h3 {
             font-size: 150%;
         }
+        
+        main h2 {
+            font-size: 250%;
+        }*/
 
         hr {
             display: none;
+        }
+
+        #about,
+        #lifting-types>h2,
+        #lifting-types>p {
+            text-align: center;
+            margin: 10px 40px;
+        }
+
+        #about h2,
+        #lifting-types h2 {
+            font-size: 250%;
+        }
+
+        #about h3,
+        #lifting-types h3 {
+            font-size: 200%;
+        }
+
+        #about p,
+        #lifting-types p {
+            font-size: 150%;
         }
 
         /* Hero */
