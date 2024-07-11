@@ -177,6 +177,15 @@ main {
 details>p {
     text-align: center;
     font-style: italic;
+    margin-bottom: 40px;
+}
+
+details {
+    border: #585858 solid 1px;
+    border-radius: 5px;
+    margin: 1px 5px;
+    background-color: #585858;
+    color: #fafafa;
 }
 
 #workouts>h2,
