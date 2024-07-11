@@ -173,6 +173,34 @@ main {
     margin: 10px;
 }
 
+/* Workouts */
+details>p {
+    text-align: center;
+    font-style: italic;
+}
+
+#workouts>h2,
+#workouts h3 {
+    margin-top: 20px;
+}
+
+#workouts summary {
+    margin: 10px 0px 10px 20px;
+    font-weight: bolder;
+}
+
+#workouts table {
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 1px 10px 1px;
+    width: 100%;
+}
+
+#workouts th,
+#workouts td {
+    padding: 10px 1px;
+}
+
 /*Footer*/
 footer {
     background-color: #585858;
@@ -294,38 +322,38 @@ footer {
     }
 
     #about,
-        #lifting-types>h2,
-        #lifting-types>p {
-            text-align: center;
-            margin: 10px 40px;
-        }
+    #lifting-types>h2,
+    #lifting-types>p {
+        text-align: center;
+        margin: 10px 40px;
+    }
 
-        #bodybuilding-img {
-            background-position-x: 58%;
-            background-size: 30em;
-            width: 300px;
-            height: 300px;
-            margin: 10px;
-            border-radius: 50%;
-        }
+    #bodybuilding-img {
+        background-position-x: 58%;
+        background-size: 30em;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 50%;
+    }
 
-        #powerlifting-img {
-            background-position-x: 50%;
-            background-size: 30em;
-            width: 300px;
-            height: 300px;
-            margin: 10px;
-            border-radius: 50%;
-        }
+    #powerlifting-img {
+        background-position-x: 50%;
+        background-size: 30em;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 50%;
+    }
 
-        #weightlifting-img {
-            background-position: 65% 80%;
-            background-size: 30em;
-            width: 300px;
-            height: 300px;
-            margin: 10px;
-            border-radius: 50%;
-        }
+    #weightlifting-img {
+        background-position: 65% 80%;
+        background-size: 30em;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 50%;
+    }
 
     /* Media query: Laptops and larger (992px and up) */
     @media screen and (min-width:992px) {
@@ -364,13 +392,13 @@ footer {
         .content p {
             font-size: 150%;
         }
-        
+
         .content h2 {
-            font-size: 250%;  
+            font-size: 250%;
         }
 
         .content h3 {
-            font-size: 200%;  
+            font-size: 200%;
         }
 
         hr {
@@ -389,7 +417,8 @@ footer {
             flex-flow: row wrap;
             justify-content: space-around;
         }
-/*
+
+        /*
         #bodybuilding-img {
             background-position-x: 58%;
             background-size: 30em;
