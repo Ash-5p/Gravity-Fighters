@@ -27,6 +27,10 @@ h3 {
     text-shadow: 0 2px 2px black;
 }
 
+p {
+    width: 100%;
+    padding: 5px 10px;
+}
 /* Header */
 header {
     background-color: rgb(88, 88, 88);
@@ -334,7 +338,6 @@ footer {
     #lifting-types>h2,
     #lifting-types>p {
         text-align: center;
-        margin: 10px 40px;
     }
 
     #bodybuilding-img {
