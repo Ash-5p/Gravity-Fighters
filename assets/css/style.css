@@ -31,6 +31,7 @@ p {
     width: 100%;
     padding: 5px 10px;
 }
+
 /* Header */
 header {
     background-color: rgb(88, 88, 88);
@@ -190,6 +191,12 @@ details {
     margin: 1px 5px;
     background-color: #585858;
     color: #fafafa;
+}
+
+
+#workouts {
+    margin-bottom: 20px;
+    /*Pushes footer down on workouts page*/
 }
 
 #workouts>h2,
@@ -380,6 +387,18 @@ footer {
         main {
             margin-top: 125px;
         }
+
+        /* Workouts */
+        #workout-lists {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #workout-lists>div {
+            width: 700px;
+        }
     }
 
     /* Media query: Larger laptops and PC screens (1024px and up) */
@@ -402,7 +421,7 @@ footer {
         }
 
         .content p {
-            font-size: 150%;
+            font-size: 1em;
         }
 
         .content h2 {
@@ -430,34 +449,10 @@ footer {
             justify-content: space-around;
         }
 
-        /*
-        #bodybuilding-img {
-            background-position-x: 58%;
-            background-size: 30em;
-            width: 300px;
-            height: 300px;
-            margin: 10px;
-            border-radius: 50%;
+        .details-class p {
+            font-size: 16px;
         }
 
-        #powerlifting-img {
-            background-position-x: 50%;
-            background-size: 30em;
-            width: 300px;
-            height: 300px;
-            margin: 10px;
-            border-radius: 50%;
-        }
-
-        #weightlifting-img {
-            background-position: 65% 80%;
-            background-size: 30em;
-            width: 300px;
-            height: 300px;
-            margin: 10px;
-            border-radius: 50%;
-        }
-*/
     }
 
     /* Media query: Wide Resolution PC screens (1440px and up) */
