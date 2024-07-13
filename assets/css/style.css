@@ -19,7 +19,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: "Anton SC", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -97,7 +98,13 @@ main {
     flex-direction: column;
 }
 
-.no-text-shadow {
+.content {
+    margin-top: 20px;
+}
+
+.no-text-shadow h2,
+.no-text-shadow h3,
+.no-text-shadow h4 {
     text-align: center;
     text-shadow: none;
 }
@@ -199,7 +206,6 @@ details {
     /*Pushes footer down on workouts page*/
 }
 
-#workouts>h2,
 #workouts h3 {
     margin-top: 20px;
 }
@@ -220,6 +226,10 @@ details {
 #workouts td {
     padding: 10px 1px;
 }
+
+/* Recipes */
+
+#recipes h4 {}
 
 /*Footer*/
 footer {
