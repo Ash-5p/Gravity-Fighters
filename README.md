@@ -343,10 +343,6 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 
 | Source | Location | Notes |
 | --- | --- | --- |
-| [Alpha Coders](https://wall.alphacoders.com/big.php?i=1001192) | index.html| Hero image |
-| [Alpha Coders](https://wall.alphacoders.com/big.php?i=1076955) | index.html| Bodybuilder Image (bodybuilder.webp) |
-| [furrloveov](https://wallpapers.com/images/hd/man-with-large-muscles-weight-lifting-00g0gqx7ucmdosro.jpg) | index.html| Powerlifter Image (powerlifter.webp) |
-| [Wallpapers.com](https://wallpapers.com/images/hd/passionate-fitness-junkie-weight-lifting-4hpw4d9d9k0ljvos.jpg) | index.html| Weightlifter Image (olympic-weightlifter.webp) |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Maxi Nutrition](https://www.maxinutrition.com/training/plans/Powerlifting-Training-Plan/) | workouts.html | Content for powerlifting workouts (Benchpress/Deadlift/Squat)|
 | [TrainHeroic](https://www.trainheroic.com/blog/olympic-weightlifting-program/) | workouts.html | Content for olympic weightlifting workouts (Day1/Day2/Day3/Day4)|
@@ -383,6 +379,12 @@ by sending yourself the following command: `!freemedia`.
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
+| [Alpha Coders](https://images6.alphacoders.com/100/thumb-1920-1001192.jpg) | index.html| image | hero image |
+| [Alpha Coders](https://images.alphacoders.com/107/thumb-1920-1076955.jpg) | index.html| Bodybuilder Image (bodybuilder.webp) |
+| [furrloveov](https://wallpapers.com/images/hd/man-with-large-muscles-weight-lifting-00g0gqx7ucmdosro.jpg) | index.html| Powerlifter Image (powerlifter.webp) |
+| [Wallpapers.com](https://wallpapers.com/images/hd/passionate-fitness-junkie-weight-lifting-4hpw4d9d9k0ljvos.jpg) | index.html| Weightlifter Image (olympic-weightlifter.webp) |
+| [Salt&Baker](https://saltandbaker.com/wp-content/uploads/2021/10/Chocolate-Peanut-Butter-Protein-Oatmeal-5.jpg) | recipes page | image | image of chocolate peanut butter protein overnight oats
+
 | [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
 | [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
 | [Unsplash](https://unsplash.com) | product page | image | sample of fake products |

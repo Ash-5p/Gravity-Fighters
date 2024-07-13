@@ -228,8 +228,30 @@ details {
 }
 
 /* Recipes */
+#recipes h3 {
+    margin-top: 10px;
+}
 
-#recipes h4 {}
+#recipes h4 {
+    text-align: left;
+}
+
+#recipes ol,
+#recipes ul {
+    padding: 2px 20px;
+    
+}
+
+#recipes li{
+    padding: 2px;
+}
+
+#recipe-1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
 
 /*Footer*/
 footer {
