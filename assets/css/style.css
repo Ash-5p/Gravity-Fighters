@@ -228,28 +228,37 @@ details {
 }
 
 /* Recipes */
+.nutrition {
+    text-align: center;
+}
+
+#recipes {
+    margin: 10px;
+}
+
 #recipes h3 {
     margin-top: 10px;
 }
 
-#recipes h4 {
+#recipes ul>h4,
+#recipes ol>h4
+    {
     text-align: left;
 }
 
 #recipes ol,
 #recipes ul {
-    padding: 2px 20px;
-    
+    padding: 10px 20px;
+
 }
 
-#recipes li{
+#recipes li {
     padding: 2px;
 }
 
 #recipe-1 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     width: 40%;
 }
 
