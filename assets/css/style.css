@@ -241,25 +241,33 @@ details {
 }
 
 #recipes ul>h4,
-#recipes ol>h4
-    {
+#recipes ol>h4 {
     text-align: left;
 }
 
 #recipes ol,
 #recipes ul {
     padding: 10px 20px;
-
 }
 
 #recipes li {
-    padding: 2px;
+    padding: 5px 2px;
 }
 
-#recipe-1 img {
+#recipe-1 img,
+#recipe-2 img,
+#recipe-3 img,
+#recipe-4 img {
     display: block;
     margin: 20px auto;
-    width: 40%;
+    width: 200px;
+}
+
+#recipe-2 img,
+#recipe-3 img,
+#recipe-4 img {
+    width: 90%;
+    /*max-width: 360px; Move to media query*/
 }
 
 /*Footer*/
