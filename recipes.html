@@ -217,19 +217,17 @@
                 <input name="email_address" type="email" id="email-address" class="text-input" required> <br>
                 <div class="radio-buttons">
                     <div>
-                        <label for="">Recipe 1</label>
-                        <input type="radio" id="" name="favorite-recipe" value="" required checked>
+                        <label for="favorite-recipe">Which recipe is your favourite?</label>
+                        <select id="favorite-recipe" name="favorite-recipe" required>
+                            <!--Code snippet taken from https://stackoverflow.com/questions/8605516/set-the-select-option-as-blank-as-default-in-html-select-element-->
+                            <option disabled selected value> -- select an option -- </option>
+                            <option value="overnight_oats">Chocolate Peanut Butter Protein Overnight Oats</option>
+                            <option value="pancakes">Protein Pancakes with Banana</option>
+                            <option value="steak_burrito_bowl">Steak Burrito Bowl</option>
+                            <option value="omelette">Vegan Spinach Omelette</option>
+                        </select>
                     </div>
-                    <div>
-                        <label for="">Recipe 2</label>
-                        <input type="radio" id="" name="favorite-recipe" value="" required>
-                    </div>
-                    <div>
-                        <label for="">Recipe 3</label>
-                        <input type="radio" id="" name="favorite-recipe" value="" required>
-                    </div>
-                </div>
-                <button type="submit" class="competition-button">Enter Prize Draw</button>
+                    <button type="submit" class="competition-button">Enter Prize Draw</button>
             </form>
         </section>
     </main>
