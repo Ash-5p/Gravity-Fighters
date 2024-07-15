@@ -548,7 +548,7 @@ footer {
     }
 
     /* Recipes Page (Start) */
-   
+
 
     .ingredients {
         grid-column-start: 2;
@@ -690,9 +690,9 @@ footer {
     /* Media query: Larger laptops and PC screens (1024px and up) */
     @media screen and (min-width:1024px) {
 
-        /* Main */
+        /* Main Content (Start) */
 
-        /* Hero */
+        /* Hero (Start) */
         #hero {
             background-size: 90em;
             height: 700px;
@@ -706,6 +706,8 @@ footer {
             padding: 30px;
         }
 
+        /* Hero (End) */
+
         .content p {
             font-size: 1em;
         }
@@ -718,11 +720,11 @@ footer {
             font-size: 200%;
         }
 
-        hr {
+        #lifting-types hr {
             display: none;
         }
 
-        /* Types of lifting section */
+        /* Types of lifting section (Start) */
         .lifting-class {
             flex-basis: 500px;
             padding: 20px;
@@ -739,6 +741,15 @@ footer {
             font-size: 16px;
         }
 
+        /* Types of lifting section (End) */
+
+        /* Recipes (Start) */
+        #recipe-nav a {
+            width: 22%;
+        }
+
+        /* Recipes (End) */
+        /* Main Content (End) */
     }
 
     /* Media query: Wide Resolution PC screens (1440px and up) */
