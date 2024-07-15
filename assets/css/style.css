@@ -304,7 +304,7 @@ details {
 #recipe-nav div>h3 {
     justify-content: center;
     align-content: center;
-    margin: 0;
+    margin: 0 10%;
     width: 100%;
 }
 
@@ -359,20 +359,17 @@ details {
     padding: 5px 2px;
 }
 
-#recipe-1 img,
-#recipe-2 img,
-#recipe-3 img,
-#recipe-4 img {
+.recipe-img {
     display: block;
     margin: 20px auto;
-    width: 200px;
+    width: 90%;
+    max-width: 365px;
 }
 
-#recipe-2 img,
-#recipe-3 img,
-#recipe-4 img {
-    width: 90%;
-    /*max-width: 360px; Move to media query*/
+#recipe-1 img {
+    width: 200px;
+    min-width: 200px;
+    width: 40%;
 }
 
 /* Recipes (End) */
@@ -394,6 +391,13 @@ details {
     text-shadow: 0 2px 2px black;
 }
 
+/*#competition {
+    max-width: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
 #competition-form>div {
     background-color: #585858;
     border: #fafafa 2px solid;
@@ -405,8 +409,24 @@ details {
     box-shadow: #000000 0 2px 2px;
 }
 
-#competition-form label {
+#competition-form label,
+#competition-form h3,
+#competition-form h4 {
     color: #fafafa;
+}
+
+#competition-form h4 {
+    margin-bottom: 15px;
+}
+
+.text-input,
+.competition-button,
+#favorite-recipe,
+#competition-form label {
+    max-width: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Competition Form (End) */
@@ -476,7 +496,131 @@ footer {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
 
-    /* Footer */
+    /* Main Content (Start) */
+
+    /* Hero (Start) */
+    #hero {
+        background: url(../images/hero.webp) no-repeat center 20%;
+        background-size: 65em;
+        height: 500px;
+    }
+
+    #hero-text {
+        font-size: 100%;
+        width: 300px;
+        left: 100px;
+        bottom: 150px;
+        padding: 20px;
+    }
+
+    /* Hero (End) */
+    #about,
+    #lifting-types>h2,
+    #lifting-types>p {
+        text-align: center;
+    }
+
+    #bodybuilding-img {
+        background-position-x: 58%;
+        background-size: 30em;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 50%;
+    }
+
+    #powerlifting-img {
+        background-position-x: 50%;
+        background-size: 30em;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 50%;
+    }
+
+    #weightlifting-img {
+        background-position: 65% 80%;
+        background-size: 30em;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 50%;
+    }
+
+    /* Recipes Page (Start) */
+   
+
+    .ingredients {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .preparation {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+
+    .nutrition {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+
+    #recipes .recipe-img {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        min-width: 0;
+        width: 270px;
+        height: 410px;
+        margin-left: 50px;
+        margin-right: 50px;
+        object-fit: cover;
+    }
+
+    #recipe-3 .recipe-img,
+    #recipe-4 .recipe-img {
+        height: auto;
+    }
+
+    #recipe-nav div>h3 {
+        font-size: 16px;
+    }
+
+    .recipe-nav-class,
+    #recipe-nav>a {
+        height: 200px;
+    }
+
+    #recipe-1,
+    #recipe-2,
+    #recipe-3,
+    #recipe-4 {
+        display: grid;
+        columns: 2;
+        column-gap: 10px;
+    }
+
+    #recipe-1>h3,
+    #recipe-2>h3,
+    #recipe-3>h3,
+    #recipe-4>h3 {
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    /* Main Content (End) */
+
+    /* Footer (Start) */
     footer>h3 {
         font-size: 150%;
     }
@@ -514,57 +658,7 @@ footer {
         width: 50%;
     }
 
-    /* Changes to alternate hero image at 768px */
-
-    /* Main */
-
-    /* Hero */
-    #hero {
-        background: url(../images/hero.webp) no-repeat center 20%;
-        background-size: 65em;
-        height: 500px;
-    }
-
-    #hero-text {
-        font-size: 100%;
-        width: 300px;
-        left: 100px;
-        bottom: 150px;
-        padding: 20px;
-    }
-
-    #about,
-    #lifting-types>h2,
-    #lifting-types>p {
-        text-align: center;
-    }
-
-    #bodybuilding-img {
-        background-position-x: 58%;
-        background-size: 30em;
-        width: 300px;
-        height: 300px;
-        margin: 10px;
-        border-radius: 50%;
-    }
-
-    #powerlifting-img {
-        background-position-x: 50%;
-        background-size: 30em;
-        width: 300px;
-        height: 300px;
-        margin: 10px;
-        border-radius: 50%;
-    }
-
-    #weightlifting-img {
-        background-position: 65% 80%;
-        background-size: 30em;
-        width: 300px;
-        height: 300px;
-        margin: 10px;
-        border-radius: 50%;
-    }
+    /* Footer (End) */
 
     /* Media query: Laptops and larger (992px and up) */
     @media screen and (min-width:992px) {
