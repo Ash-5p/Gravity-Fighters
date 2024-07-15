@@ -71,14 +71,15 @@
                         </div>
                     </div>
                 </a>
-            </a>
-            <a href="#competition" id="competition-nav">
-                <div id="nav-5" class="recipe-nav-class">
-                    <div>
-                        <h3><i class="fa-solid fa-dumbbell"></i> Enter our monthly prize draw! <i class="fa-solid fa-dumbbell"></i></h3>
+                </a>
+                <a href="#competition" id="competition-nav">
+                    <div id="nav-5" class="recipe-nav-class">
+                        <div>
+                            <h3><i class="fa-solid fa-dumbbell"></i> Enter our monthly prize draw! <i
+                                    class="fa-solid fa-dumbbell"></i></h3>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
             </div>
 
             <!-- Recipes -->
@@ -216,29 +217,30 @@
             </div>
         </section>
 
+        <!-- Competition Form -->
         <section id="competition" class="content no-text-shadow">
-            <form method="post" action="https://formdump.codeinstitute.net" id="competitition-form">
+            <form method="post" action="https://formdump.codeinstitute.net" id="competition-form">
                 <h3>Win a years supply of protein suppliments to fuel your workouts</h3>
                 <h4>(One winner every month)</h4>
-                <label for="first-name">First Name</label>
-                <input name="first_name" type="text" id="first-name" class="text-input" required> <br>
-                <label for="last-name">Last Name</label>
-                <input name="last_name" type="text" id="last-name" class="text-input" required> <br>
-                <label for="email-address">Email Address</label>
-                <input name="email_address" type="email" id="email-address" class="text-input" required> <br>
-                <div class="radio-buttons">
-                    <div>
-                        <label for="favorite-recipe">Which recipe is your favourite?</label>
-                        <select id="favorite-recipe" name="favorite-recipe" required>
-                            <!--Code snippet taken from https://stackoverflow.com/questions/8605516/set-the-select-option-as-blank-as-default-in-html-select-element-->
-                            <option disabled selected value> -- select an option -- </option>
-                            <option value="overnight_oats">Chocolate Peanut Butter Protein Overnight Oats</option>
-                            <option value="pancakes">Protein Pancakes with Banana</option>
-                            <option value="steak_burrito_bowl">Steak Burrito Bowl</option>
-                            <option value="omelette">Vegan Spinach Omelette</option>
-                        </select>
-                    </div>
-                    <button type="submit" class="competition-button">Enter Prize Draw</button>
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input name="first_name" type="text" id="first-name" class="text-input" required> <br>
+                    <label for="last-name">Last Name</label>
+                    <input name="last_name" type="text" id="last-name" class="text-input" required> <br>
+                    <label for="email-address">Email Address</label>
+                    <input name="email_address" type="email" id="email-address" class="text-input" required> <br>
+                    <label for="favorite-recipe">Which recipe is your favourite?</label>
+                    <select id="favorite-recipe" name="favorite-recipe" required>
+                        <!--Code snippet taken from https://stackoverflow.com/questions/8605516/set-the-select-option-as-blank-as-default-in-html-select-element-->
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="overnight_oats">Chocolate Peanut Butter Protein Overnight Oats</option>
+                        <option value="pancakes">Protein Pancakes with Banana</option>
+                        <option value="steak_burrito_bowl">Steak Burrito Bowl</option>
+                        <option value="omelette">Vegan Spinach Omelette</option>
+                    </select> <br>
+                    <button type="submit" class="competition-button"><i class="fa-solid fa-dumbbell"></i> Enter Prize Draw <i class="fa-solid fa-dumbbell"></i></button>
+                </div>
+
             </form>
         </section>
     </main>

@@ -33,7 +33,7 @@ p {
     padding: 5px 10px;
 }
 
-/* Header */
+/* Header (Start) */
 header {
     background-color: rgb(88, 88, 88);
     color: #fafafa;
@@ -86,8 +86,9 @@ header li:hover {
     display: inherit;
 }
 
+/* Header (End) */
 
-/*Main Content*/
+/* Main Content (Start) */
 main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
@@ -109,7 +110,7 @@ main {
     text-shadow: none;
 }
 
-/* Hero Section */
+/* Hero Section (Start)*/
 #hero {
     background: url(../images/hero.webp) no-repeat 60% 20%;
     background-color: #0e0762;
@@ -130,14 +131,17 @@ main {
     padding: 10px 5px;
 }
 
-/* About Gravity Fighters Section */
+/* Hero Section (End)*/
+
+/* About Gravity Fighters Section (Start) */
 #about,
 #lifting-types {
     margin: 10px;
 }
 
-/* Types of lifting Section */
+/* About Gravity Fighters Section (End) */
 
+/* Types of lifting Section (Start) */
 .lifting-class {
     margin-bottom: 10px;
 }
@@ -185,7 +189,9 @@ main {
     margin: 10px;
 }
 
-/* Workouts */
+/* Types of lifting section (End) */
+
+/* Workouts (Start) */
 details>p {
     text-align: center;
     font-style: italic;
@@ -227,7 +233,9 @@ details {
     padding: 10px 1px;
 }
 
-/* Recipes */
+/* Workouts (End) */
+
+/* Recipes (Start) */
 .nutrition {
     text-align: center;
 }
@@ -254,7 +262,7 @@ details {
 
 #recipe-nav
 
-/* Recipe Navigation */
+/* Recipe Navigation (Start) */
     {
     display: flex;
     flex-wrap: wrap;
@@ -300,7 +308,9 @@ details {
     width: 100%;
 }
 
-/* Competition Navbar */
+/* Recipe Navigation (End) */
+
+/* Competition Navbar (Start) */
 #competition-nav>.recipe-nav-class>div {
     border: none;
     box-shadow: none;
@@ -328,6 +338,8 @@ details {
 #nav-5>div>h3 {
     text-shadow: 0 2px 2px black;
 }
+
+/* Competition Navbar (End) */
 
 #recipes h3 {
     margin-top: 10px;
@@ -362,6 +374,44 @@ details {
     width: 90%;
     /*max-width: 360px; Move to media query*/
 }
+
+/* Recipes (End) */
+
+/* Competition Form (Start) */
+.competition-button {
+    background-color: #585858;
+    font-size: 16px;
+    color: #fafafa;
+    border: #fafafa 2px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: #000000 0 2px 2px;
+    font-family: "Anton SC", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-shadow: 0 2px 2px black;
+}
+
+#competition-form>div {
+    background-color: #585858;
+    border: #fafafa 2px solid;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: #000000 0 2px 2px;
+}
+
+#competition-form label {
+    color: #fafafa;
+}
+
+/* Competition Form (End) */
+
+/* Main Content (End) */
 
 /*Footer*/
 footer {
