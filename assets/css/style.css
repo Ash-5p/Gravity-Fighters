@@ -548,7 +548,7 @@ footer {
     }
 
     /* Recipes Page (Start) */
-
+    /* I used https://www.w3schools.com/css/css_rwd_grid.asp to learn how to position objects using display:grid; */
 
     .ingredients {
         grid-column-start: 2;
@@ -691,6 +691,9 @@ footer {
     @media screen and (min-width:1024px) {
 
         /* Main Content (Start) */
+        p {
+            text-align: center;
+        }
 
         /* Hero (Start) */
         #hero {
@@ -748,6 +751,11 @@ footer {
             width: 22%;
         }
 
+        #recipes {
+            width: 1024px;
+            margin-left: auto;
+            margin-right: auto;
+        }
         /* Recipes (End) */
         /* Main Content (End) */
     }
