@@ -33,6 +33,7 @@ p {
     padding: 5px 10px;
 }
 
+
 /* Header (Start) */
 header {
     background-color: rgb(88, 88, 88);
@@ -433,7 +434,7 @@ details {
 
 /* Main Content (End) */
 
-/*Footer*/
+/*Footer (Start)*/
 footer {
     background-color: #585858;
     color: #fafafa;
@@ -483,6 +484,31 @@ footer {
 
 #gf-logo i {
     padding: 20px 3px;
+}
+
+/*Footer (End)*/
+
+#error {
+    margin: 40px 30px 30px 30px;
+}
+
+#error>h1 {
+    text-shadow: none;
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+#error>ol {
+    margin: 25px;
+}
+
+#error li,
+#error>p {
+    padding: 10px;
+}
+
+#error a {
+    text-decoration: none;
 }
 
 /*Hides the full size footer logo on mobile phones*/
