@@ -434,7 +434,7 @@ details {
 
 /* Main Content (End) */
 
-/*Footer (Start)*/
+/* Footer (Start) */
 footer {
     background-color: #585858;
     color: #fafafa;
@@ -486,8 +486,9 @@ footer {
     padding: 20px 3px;
 }
 
-/*Footer (End)*/
+/* Footer (End) */
 
+/* Error 404 Page (Start) */
 #error {
     margin: 40px 30px 30px 30px;
 }
@@ -518,8 +519,8 @@ footer {
 #error a {
     text-decoration: none;
 }
-
-/*Hides the full size footer logo on mobile phones*/
+/* Error 404 Page (End) */
+/* Hides the full size footer logo on mobile phones */
 #full-sized-footer-logo {
     display: none;
 }
@@ -733,7 +734,7 @@ footer {
 
         /* Hero (Start) */
         #hero {
-            height: 700px;
+            height: 600px;
         }
 
         #hero-text {
@@ -810,8 +811,8 @@ footer {
     @media screen and (min-width:1440px) {
 
         #hero {
-            height: 70em;
-            background: url(../images/hero.webp) no-repeat 20% 35% / cover;
+            height: 500px;
+            background: url(../images/hero.webp) no-repeat 50% 85% /cover;
         }
 
         #about,
