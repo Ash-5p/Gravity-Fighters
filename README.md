@@ -5,41 +5,16 @@
 [![GitHub repo size](https://img.shields.io/github/repo-size/Ash-5p/Gravity-Fighters)](https://github.com/Ash-5p/Gravity-Fighters)
 ---
 
-This project is a static website to promote a weightlifting club called "Gravity Fighters". It will provide advice to people who are interested in getting into the sport, as well as offering suggested workouts and high-protein meal recipes.
+This project is a static website to promote a weightlifting club called "Gravity Fighters". It provides information about the different types of weightlifting to people who are interested in getting into the sport/hobby, and will emphasize the difference between the training styles and outcomes of each. There is a page of example workouts to try for each type of lifting, and a page offerening high-protein meal recipes with nutritional information. Gravity Fighters website's main goal is to introduce people to the club and encourage everyone from beginner to advanced lifter to try the different lifting sports.
 
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
+![screenshot](documentation/homepage.webp)
 
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
+![screenshot](documentation/workouts-page.webp)
 
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
+![screenshot](documentation/recipes-page.webp)
+
+Click the below link to view the site on Am I Responsive:
 https://ui.dev/amiresponsive?url=https://ash-5p.github.io/Gravity-Fighters
-
-⚠️ NOTE: Issues generating site mockups (Django projects)
-This is likely due to security policies with your deployed site.
-If you open up your dev tools, there may be an error referencing `X-Frame-Options`.
-For Chrome users, head over to http://bit.ly/3iRPn4u and install the extension within your browser.
-Once installed, navigate back to the site above.
-You should find your site rendering in the various devices.
-Alternatively, open your project in Gitpod and run the server.
-Once the site is running, click the `Ports` tab at the bottom of your Gitpod workspace (Ports: 2205, 05432, 8000... ).
-Click the padlock on port `8000`.
-This will make your local page public temporarily.
-Now copy the URL of your live-preview page into the responsive tool above.
-You should find your site rendering in the various devices.
-
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
-
-![screenshot](documentation/mockup.png)
-
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
 
 ---
 
@@ -77,7 +52,7 @@ source: [amiresponsive](https://ui.dev/amiresponsive?url=https://ash-5p.github.i
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
 
-In this section, you will briefly explain your design processes.
+Initial mockup design was done using Balsamiq Wireframes to establish a general layout. 
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
@@ -85,68 +60,25 @@ In this section, you will briefly explain your design processes.
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
 
-Explain your colours and the colour scheme.
+The dark grey tones were chosen for the header and footer to emulate the dark gritty asthetic seen in a lot of weightlifting imagery, like the hero image on the homepage. White text was then chosen to contrast the dark colors for a better user experience.
+These colors were then inverted for the main section of each page, as the images popped better on a white background.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+- `#444444` used for primary text.
+- `#FAFAFA` used for primary highlights.
+- `#FAFAFA` used for secondary text.
+- `#585858` used for secondary highlights.
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
+I used [coolors.co](https://coolors.co/fafafa-585858-444444) to generate my colour palette.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
-
-⚠️ ONLY IF YOU ACTUALLY ADDED `:root` variables in CSS! ⚠️
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
+![screenshot](documentation/color-scheme.webp)
 
 ### Typography
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
+- [Anton SC](https://fonts.google.com/specimen/Anton+SC?query=anton+sc)was used for all headings and the site logo, as the large block letters was inkeeping with the theme of strength.
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
+- [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed?query=roboto+co) was used for all other secondary text.
 
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
-
-Example:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer, and the dumbell icon in the site logo and navbar.
 
 ## Features
 
@@ -167,23 +99,60 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ### Existing Features
 
-- **YOUR-TITLE-FOR-FEATURE-#1**
+- **Header**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The header houses the site logo and navbar, and is fixed to ensure these features are always visible to the user no matter where they are on the current page.
 
-![screenshot](documentation/features/feature01.png)
+![screenshot](documentation/features/header.png)
 
-- **YOUR-TITLE-FOR-FEATURE-#2**
+- **Gravity Fighters Logo**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The Gravity Fighters logo immediately draws attention due to the box-shadow effect which gives it a 3D appearence. The dumbell icon lets the user know that Gravity Fighters is a weightlifting focused website. 
 
-![screenshot](documentation/features/feature02.png)
+![screenshot](documentation/features/logo-tablet.png) ![screenshot](documentation/features/logo-mobile.png)
 
-- **YOUR-TITLE-FOR-FEATURE-#3**
+- **Navbar**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The navbar provides the main means to navigate the whole site. This is attached to a fixed header, allowing user to switch between each page without having to scroll back to the top of the current page. The currently selected page with be indicated by a dumbell icon on the navbar.
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/navbar.png)
+
+- **Footer**
+
+    - The footer houses another logo and all of the links to the Gravity Fighters social media pages. It serves as an indicator to the user that they have reached the bottom of the page and there is no more content below.
+
+![screenshot](documentation/features/footer.png)
+
+- **Social Media Icons**
+
+    - The social media icons, housed in the footer, act as links to the corresponding Gravity Fighters social media pages.
+
+![screenshot](documentation/features/social-icons.png)
+
+- **Homepage**
+
+    - The homepage serves as a landing point for the user and makes it immediately apparent what the site is about. It contains a hero image of a person preparing to perform a lift, and an introduction into what/who Gravity Fighters are. It also contains an overview of the types of weightlifting.
+
+![screenshot](documentation/features/home-page.png)
+
+- **Types of Weightlifting Section**
+
+    - This section provides a brief summary and a visual representation of the different types of weightlifting, allowing the user to compare them to see which format would interest them the most. Sections of the text containing key words contain links to their corrisponding wikipedia pages to encourage the user to research deeper.
+
+![screenshot](documentation/features/lifting-types.png)
+
+- **Workouts Page**
+
+    - The social media icons, housed in the footer, act as links to the corresponding Gravity Fighters social media pages.
+
+![screenshot](documentation/features/workouts-page.png)
+
+- **Recipes Page**
+
+    - The social media icons, housed in the footer, act as links to the corresponding Gravity Fighters social media pages.
+
+![screenshot](documentation/features/recipes-page.png)
+
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
 
