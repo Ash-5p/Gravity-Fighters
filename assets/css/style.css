@@ -68,7 +68,11 @@ header a {
 }
 
 header li:hover {
-    color: red;
+    border: 2px solid #fafafa;
+    box-shadow: 0 2px 2px black;
+    padding: 0.25em;
+    border-radius: 8px;
+    margin: -7px; /* Prevents the text from shifting when hovering */
 }
 
 .menu {
