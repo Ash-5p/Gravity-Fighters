@@ -143,16 +143,33 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 - **Workouts Page**
 
-    - The social media icons, housed in the footer, act as links to the corresponding Gravity Fighters social media pages.
+    - The workouts page offers a selection of sample workouts for each of the different types of lifting talked about on the homepage. This allows users to try out each style to see whch one best suits them.
 
 ![screenshot](documentation/features/workouts-page.png)
 
+- **Workouts Summary/Detail**
+
+    - The workouts on the workouts page are displayed using the summary/detail elements, which allow the only workout name to be shown initially until clicked on, and will then extend to reveal the full workout. This feature serves to make the page less cluttered, producing a positive response from the user, and making it obvious that their is more content below.
+
+![screenshot](documentation/features/workouts-summary.png) ![screenshot](documentation/features/workouts-detail.png)
+
 - **Recipes Page**
 
-    - The social media icons, housed in the footer, act as links to the corresponding Gravity Fighters social media pages.
+    - The recipes page
 
-![screenshot](documentation/features/recipes-page.png)
+![screenshot](documentation/features/recipes-page.png) 
 
+- **Recipes Page Navbar**
+
+    - The recipes page navbar    
+
+![screenshot](documentation/features/.png)
+
+- **Competition Form**
+
+    - Competition form
+
+![screenshot](documentation/features/.png)
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
 
