@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* General Styles*/
@@ -485,6 +486,40 @@ footer {
 
 /* Footer (End) */
 
+/* Competition Form Confirmation Page (Start) */
+#competition {
+    margin: 40px 30px 30px 30px;
+    text-align: center;
+}
+
+#competition-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #585858;
+    color: #fafafa;
+    height: 60px;
+    text-align: center;
+    border: 2px solid #fafafa;
+    box-shadow: 0 2px 2px black;
+    padding: 0px 10px;
+    border-radius: 15px;
+}
+
+#competition>ol {
+    margin: 25px;
+}
+
+#competition li,
+#competition>p {
+    padding: 10px;
+}
+
+#competition a {
+    text-decoration: none;
+}
+/* Competition Form Confirmation Page (End) */
+
 /* Error 404 Page (Start) */
 #error {
     margin: 40px 30px 30px 30px;
@@ -793,15 +828,17 @@ footer {
         /* Recipes (End) */
         /* Main Content (End) */
 
-        /* Error 404 Page (Start) */
+
+        /* Error 404 & Competition Confirmation Page (Start) */
         #error {
             text-align: center;
         }
 
-        #error ol {
+        #error ol,
+        #competition ol {
             list-style-position: inside; /* Code snippet taken from https://www.w3schools.com/css/css_list.asp */
         }
-        /* Error 404 Page (End) */
+        /* Error 404 & Competition Confirmation Page (End) */
     }
 
     /* Media query: Wide Resolution PC screens (1440px and up) */
@@ -819,7 +856,8 @@ footer {
             max-width: 1520px;
         }
 
-        #error {
+        #error,
+        #competition {
             margin: 40px auto 30px auto;
             width: 1440px;
         }
