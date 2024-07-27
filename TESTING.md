@@ -15,7 +15,7 @@ Go through each feature of your portfolio site and detail the testing process fo
 
 Explain the functionality and demonstrate how it aligns with the intended purpose. This could include:
 
-- Navigation: Ensuring smooth transitions between pages, links directing to the correct destinations.
+- Navigation: All navigation links have been tested manually, and take the user to the intended location.
 - Responsive Design: Checking for compatibility across various devices and screen sizes.
 - Portfolio Display: Verifying that projects are properly showcased with accurate descriptions, images, and links.
 - Contact Form: Testing the form submission process, ensuring the user receives a confirmation, and you receive the message.
@@ -69,6 +69,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 |  | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 |  | recipes.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 |  | workouts.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+|  | confirmation.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 
 ### CSS
 

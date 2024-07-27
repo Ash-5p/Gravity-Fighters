@@ -42,23 +42,15 @@ You'll have to commit/push the changes to GitHub to see it in action.
 
 Source: https://github.com/orgs/community/discussions/16925
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 ![screenshot](documentation/mockup.png)
 
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://ash-5p.github.io/Gravity-Fighters)
 
 ## UX
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
-
-Initial mockup design was done using Balsamiq Wireframes to establish a general layout. 
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+The color scheme and blocky header fonts were chosen to give the site a slightly gritty/serious feel akin to the weightlifitng imagery used throughout the site. The text font for the headers was directly inspired by my favorite gym from my hometown (https://www.truegrittraining.co.uk/).
 
 ### Colour Scheme
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
 
 The dark grey tones were chosen for the header and footer to emulate the dark gritty asthetic seen in a lot of weightlifting imagery, like the hero image on the homepage. White text was then chosen to contrast the dark colors for a better user experience.
 These colors were then inverted for the main section of each page, as the images popped better on a white background.
@@ -81,21 +73,6 @@ I used [coolors.co](https://coolors.co/fafafa-585858-444444) to generate my colo
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer, and the dumbell icon in the site logo and navbar.
 
 ## Features
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ### Existing Features
 
@@ -155,29 +132,21 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 - **Recipes Page**
 
-    - The recipes page
+    - The recipes page offers a selection of sample recipes to the user. It has its own navigation bar local to the recipes page which allows easy navigation to the desired recipe, and also contains a form to be completed by the user to enter a prize draw.
 
 ![screenshot](documentation/features/recipes-page.png) 
 
 - **Recipes Page Navbar**
 
-    - The recipes page navbar    
+    - The recipes page navbar allows the user to quickly navigate to the desired recipe, and prompts them to enter the prize draw with a competition navigation button. The nav buttons feature a background image of the recipe they navigate to which acts as a visual preview for the user, these images zoom in on hover.   
 
-![screenshot](documentation/features/.png)
+![screenshot](documentation/features/recipe-nav.png)
 
 - **Competition Form**
 
-    - Competition form
+    - The competition form allows the user to enter a prize draw to win a years supply of protein suppliments. It consists of first name, surname, email and favourite recipe (select) fields, and requires all fields to be filled to allow submission, and takes the user to a confirmation page.
 
-![screenshot](documentation/features/.png)
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-Repeat as necessary for as many features as your site contains.
-
-Hint: the more, the merrier!
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+![screenshot](documentation/features/competition-form.png)
 
 ### Future Features
 
@@ -190,10 +159,10 @@ Consider adding any helpful links or notes to help remind you in the future, if 
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#1
-    - Any additional notes about this feature.
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#2
-    - Any additional notes about this feature.
+- Extend Recipes Section
+    - Due to time constraints I only added 4 recipes to the this section, however I plan to add more in the future.
+- Macro Calculator
+    - I plan to add another page containing a macro calculator and an overview which will explain the benefits of tracking macros. I currently don't possess the knowledge/skill to do this, so I plan to implement this when I have progressed further in the code institute fullstack development course.
 - YOUR-TITLE-FOR-FUTURE-FEATURE-#3
     - Any additional notes about this feature.
 
@@ -208,7 +177,6 @@ Feel free to delete any unused items below as necessary.
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
-- ⚠️⚠️ REQUIRED <-- delete me ⚠️⚠️
 - [![Markdown Builder](https://img.shields.io/badge/Markdown_Builder-grey?logo=markdown&logoColor=000000)](https://tim.2bn.dev/markdown-builder) used to generate README and TESTING templates.
 - [![Git](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [![GitHub](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com) used for secure online code storage.
@@ -219,34 +187,11 @@ Feel free to delete any unused items below as necessary.
 - ⚠️⚠️ CHOOSE ALL APPLICABLE <-- delete me ⚠️⚠️
 - [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [![CSS](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- ⚠️⚠️ CHOOSE ONLY ONE <-- delete me ⚠️⚠️
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site.
-- ⚠️⚠️ CHOOSE ONLY ONE (if applicable) <-- delete me ⚠️⚠️
 - [![Bootstrap](https://img.shields.io/badge/Bootstrap-grey?logo=bootstrap&logoColor=7952B3)](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [![Materialize](https://img.shields.io/badge/Materialize-grey?logo=materialdesign&logoColor=F5A5A8)](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- ⚠️⚠️ CHOOSE ALL APPLICABLE <-- delete me ⚠️⚠️
-- [![Google Sheets](https://img.shields.io/badge/Google_Sheets-grey?logo=googlesheets&logoColor=34A853)](https://docs.google.com/spreadsheets) used for storing data from my Python app.
-- [![Jest](https://img.shields.io/badge/Jest-grey?logo=jest&logoColor=c21325)](https://jestjs.io) used for automated JavaScript testing.
-- [![Flask](https://img.shields.io/badge/Flask-grey?logo=flask&logoColor=000000)](https://flask.palletsprojects.com) used as the Python framework for the site.
-- [![MongoDB](https://img.shields.io/badge/MongoDB-grey?logo=mongodb&logoColor=47A248)](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-grey?logo=sqlalchemy&logoColor=D71F00)](https://www.sqlalchemy.org) used as the relational database management with Flask.
-- [![Django](https://img.shields.io/badge/Django-grey?logo=django&logoColor=092E20)](https://www.djangoproject.com) used as the Python framework for the site.
-- [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-grey?logo=postgresql&logoColor=4169E1)](https://www.postgresql.org) used as the relational database management.
-- [![PostgreSQL by Code Institute](https://img.shields.io/badge/PostgreSQL_by_Code_Institute-grey?logo=okta&logoColor=F05223)](https://dbs.ci-dbs.net) used as the Postgres database from Code Institute.
-- [![ElephantSQL](https://img.shields.io/badge/ElephantSQL-grey?logo=postgresql&logoColor=36A6E2)](https://www.elephantsql.com) used as the Postgres database.
-- [![Cloudinary](https://img.shields.io/badge/Cloudinary-grey?logo=cloudinary&logoColor=3448C5)](https://cloudinary.com) used for online static file storage.
-- [![WhiteNoise](https://img.shields.io/badge/WhiteNoise-grey?logo=python&logoColor=FFFFFF)](https://whitenoise.readthedocs.io) used for serving static files with Heroku.
-- [![Stripe](https://img.shields.io/badge/Stripe-grey?logo=stripe&logoColor=008CDD)](https://stripe.com) used for online secure payments of ecommerce products/services.
-- [![Gmail API](https://img.shields.io/badge/Gmail_API-grey?logo=gmail&logoColor=EA4335)](https://mail.google.com) used for sending emails in my application.
-- [![MailChimp](https://img.shields.io/badge/MailChimp-grey?logo=mailchimp&logoColor=FFE01B)](https://mailchimp.com) used for sending newsletter subscriptions.
-- [![AWS S3](https://img.shields.io/badge/AWS_S3-grey?logo=amazons3&logoColor=569A31)](https://aws.amazon.com/s3) used for online static file storage.
 - [![Balsamiq](https://img.shields.io/badge/Balsamiq-grey?logo=barmenia&logoColor=CE0908)](https://balsamiq.com/wireframes) used for creating wireframes.
-- [![Figma](https://img.shields.io/badge/Figma-grey?logo=figma&logoColor=F24E1E)](https://www.figma.com) used for creating wireframes.
-- [![Canva](https://img.shields.io/badge/Canva-grey?logo=canva&logoColor=00C4CC)](https://www.canva.com/p/canvawireframes) used for creating wireframes.
-- [![Google Maps API](https://img.shields.io/badge/Google_Maps_API-grey?logo=googlemaps&logoColor=4285F4)](https://developers.google.com/maps) used as an interactive map on my site.
-- [![Leaflet](https://img.shields.io/badge/Leaflet-grey?logo=leaflet&logoColor=199900)](https://leafletjs.com) used as a free open-source interactive map on my site.
 - [![Font Awesome](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) used for the icons.
-- [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help debug, troubleshoot, and explain things.
+- [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help debug, troubleshoot, explain things, and generate text for 404 and confirmation pages.
 
 ## Testing
 
@@ -330,27 +275,17 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [Maxi Nutrition](https://www.maxinutrition.com/training/plans/Powerlifting-Training-Plan/) | workouts.html | Content for powerlifting workouts (Benchpress/Deadlift/Squat)|
-| [TrainHeroic](https://www.trainheroic.com/blog/olympic-weightlifting-program/) | workouts.html | Content for olympic weightlifting workouts (Day1/Day2/Day3/Day4)|
-| [Healthline](https://www.healthline.com/health/fitness/one-rep-max-how-to-calculate-and-use#how-to-calculate) | workouts.html | Content of powerlifting workouts (1RM Test) |
-| [BBCgoodFOOD](https://www.bbcgoodfood.com/recipes/protein-pancakes-with-banana) | recipes.html | Protein pancakes with bannana recipe |
-| [BBCgoodFOOD](https://www.bbcgoodfood.com/recipes/steak-burrito-bowl) | recipes.html | Steak burrito bowl recipe |
-| [BBCgoodFOOD](https://www.bbcgoodfood.com/recipes/steak-burrito-bowl) | recipes.html | Vegan spinach omelette recipe |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+| [BBCgoodFOOD](https://www.bbcgoodfood.com/recipes/protein-pancakes-with-banana) | recipes.html | protein pancakes with bannana recipe |
+| [BBCgoodFOOD](https://www.bbcgoodfood.com/recipes/steak-burrito-bowl) | recipes.html | steak burrito bowl recipe |
+| [BBCgoodFOOD](https://www.bbcgoodfood.com/recipes/steak-burrito-bowl) | recipes.html | vegan spinach omelette recipe | 
+| [Maxi Nutrition](https://www.maxinutrition.com/training/plans/Powerlifting-Training-Plan/) | workouts.html | content for powerlifting workouts (Benchpress/Deadlift/Squat)|
+| [TrainHeroic](https://www.trainheroic.com/blog/olympic-weightlifting-program/) | workouts.html | content for olympic weightlifting workouts (Day1/Day2/Day3/Day4)|
+| [Healthline](https://www.healthline.com/health/fitness/one-rep-max-how-to-calculate-and-use#how-to-calculate) | workouts.html | content of powerlifting workouts (1RM Test) |
+| [w3schools](https://www.w3schools.com/css/css_list.asp) | 404.html & confirmation.html | list-style-position: inside;  |
 
 ### Media
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
 
 Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
 A few examples have been provided below to give you some ideas.
@@ -362,29 +297,17 @@ Ideally, you should provide an actual link to every media file used, not just a 
 The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
 by sending yourself the following command: `!freemedia`.
 
-⚠️⚠️ EXAMPLE LINKS - REPLACE WITH YOUR OWN ⚠️⚠️
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
 | [Alpha Coders](https://images6.alphacoders.com/100/thumb-1920-1001192.jpg) | index.html| image | hero image |
-| [Alpha Coders](https://images.alphacoders.com/107/thumb-1920-1076955.jpg) | index.html| Bodybuilder Image (bodybuilder.webp) |
-| [furrloveov](https://wallpapers.com/images/hd/man-with-large-muscles-weight-lifting-00g0gqx7ucmdosro.jpg) | index.html| Powerlifter Image (powerlifter.webp) |
-| [Wallpapers.com](https://wallpapers.com/images/hd/passionate-fitness-junkie-weight-lifting-4hpw4d9d9k0ljvos.jpg) | index.html| Weightlifter Image (olympic-weightlifter.webp) |
+| [Alpha Coders](https://images.alphacoders.com/107/thumb-1920-1076955.jpg) | index.html| image | Bodybuilder Image (bodybuilder.webp) |
+| [furrloveov](https://wallpapers.com/images/hd/man-with-large-muscles-weight-lifting-00g0gqx7ucmdosro.jpg) | index.html| image | Powerlifter Image (powerlifter.webp) |
+| [Wallpapers.com](https://wallpapers.com/images/hd/passionate-fitness-junkie-weight-lifting-4hpw4d9d9k0ljvos.jpg) | index.html| image | Weightlifter Image (olympic-weightlifter.webp) |
 | [Salt&Baker](https://saltandbaker.com/wp-content/uploads/2021/10/Chocolate-Peanut-Butter-Protein-Oatmeal-5.jpg) | recipes page | image | image of chocolate peanut butter protein overnight oats | 
 | [Freepik](https://img.freepik.com/free-photo/almond-banana-pancake_1339-5262.jpg?t=st=1720985120~exp=1720988720~hmac=0fae57946d909be03ce08a276a2308b00d846f39943b90f0a29031618e84a6b5&w=996) | recipes page | image | image of pancakes with bannana |
-| [BBCgoodFOOD](https://images.immediate.co.uk/production/volatile/sites/30/2020/08/steak-burrito-bowl-932949f.jpg?quality=90&webp=true&resize=375,341) | recipes page | image | image of steak burrito bowl|
-| [BBCgoodFOOD](https://images.immediate.co.uk/production/volatile/sites/30/2023/05/Spinach-Omelette440x400-1c259f3.jpg?quality=90&webp=true&resize=375,341) | recipes page | image | image of vegan spinach omelette |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [BBCgoodFOOD](https://images.immediate.co.uk/production/volatile/sites/30/2020/08/steak-burrito-bowl-932949f.jpg?quality=90&webp=true&resize=375,341) | recipes.html | image | image of steak burrito bowl|
+| [BBCgoodFOOD](https://images.immediate.co.uk/production/volatile/sites/30/2023/05/Spinach-Omelette440x400-1c259f3.jpg?quality=90&webp=true&resize=375,341) | recipes.html | image | image of vegan spinach omelette |
+| [Image Resizer](https://imageresizer.com/image-compressor/editor) | recipes.html | image | used to compress image size of protein pancakes |
 
 ### Acknowledgements
 

@@ -323,9 +323,8 @@ details {
 
 #recipe-nav>a>#nav-2:hover {
     background-size: 158%;
-    /* Makes recipe nav-2 background image zoom in on hover (separate from other navs due to image aspect ratio */
+    /* Makes recipe nav-2 background image zoom in on hover (separate from other navs due to image aspect ratio) */
 }
-
 
 /* Recipe Navigation (End) */
 
