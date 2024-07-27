@@ -284,6 +284,11 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | [TrainHeroic](https://www.trainheroic.com/blog/olympic-weightlifting-program/) | workouts.html | content for olympic weightlifting workouts (Day1/Day2/Day3/Day4)|
 | [Healthline](https://www.healthline.com/health/fitness/one-rep-max-how-to-calculate-and-use#how-to-calculate) | workouts.html | content of powerlifting workouts (1RM Test) |
 | [w3schools](https://www.w3schools.com/css/css_list.asp) | 404.html & confirmation.html | list-style-position: inside;  |
+| [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+5/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) | entire site | used as guide for header html structure|
+| [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+5/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) | entire site | used as guide for header css styling |
+| [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+5/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) | entire site | used as guide for footer css styling |
+
+
 
 ### Media
 

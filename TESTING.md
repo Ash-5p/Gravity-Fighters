@@ -65,11 +65,11 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-|  | 404.html | ![screenshot](documentation/validation/validation-404.png) | |
-|  | confirmation.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | recipes.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | workouts.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+|  | 404.html | ![screenshot](documentation/validation/validation-404.png) | no errors shown |
+|  | confirmation.html | ![screenshot](documentation/validation/validation-confirmation.png) | no errors shown |
+|  | index.html | ![screenshot](documentation/validation/validation-home.png) | no errors shown |
+|  | recipes.html | ![screenshot](documentation/validation/validation-recipes.png) | no errors shown |
+|  | workouts.html | ![screenshot](documentation/validation/validation-workouts.png) | no errors shown |
 
 
 ### CSS
@@ -78,7 +78,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| assets | style.css | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| assets | style.css | ![screenshot](documentation/validation/validation-css.png) | no errors shown |
 
 ## Browser Compatibility
 
@@ -110,14 +110,12 @@ Sample browser testing documentation:
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Home | About | Contact | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browsers/browser-firefox-home.png) | ![screenshot](documentation/browsers/browser-firefox-about.png) | ![screenshot](documentation/browsers/browser-firefox-contact.png) | ![screenshot](documentation/browsers/browser-firefox-etc.png) | Works as expected |
-| Edge | ![screenshot](documentation/browsers/browser-edge-home.png) | ![screenshot](documentation/browsers/browser-edge-about.png) | ![screenshot](documentation/browsers/browser-chrome-edge.png) | ![screenshot](documentation/browsers/browser-edge-etc.png) | Works as expected |
-| Safari | ![screenshot](documentation/browsers/browser-safari-home.png) | ![screenshot](documentation/browsers/browser-safari-about.png) | ![screenshot](documentation/browsers/browser-safari-contact.png) | ![screenshot](documentation/browsers/browser-safari-etc.png) | Minor CSS differences |
-| Brave | ![screenshot](documentation/browsers/browser-brave-home.png) | ![screenshot](documentation/browsers/browser-brave-about.png) | ![screenshot](documentation/browsers/browser-brave-contact.png) | ![screenshot](documentation/browsers/browser-brave-etc.png) | Works as expected |
-| Opera | ![screenshot](documentation/browsers/browser-opera-home.png) | ![screenshot](documentation/browsers/browser-opera-about.png) | ![screenshot](documentation/browsers/browser-opera-contact.png) | ![screenshot](documentation/browsers/browser-opera-etc.png) | Minor differences |
+| Browser | Home | Workouts | Recipes | 404 | Confirmation | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Chrome | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
+| Edge | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
+| Opera | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
+
 | repeat for any other tested browsers | x | x | x | x | x |
 
 ## Responsiveness
@@ -150,10 +148,9 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Mobile (DevTools) | ![screenshot](documentation/responsiveness/responsive-mobile-home.png) | ![screenshot](documentation/responsiveness/responsive-mobile-about.png) | ![screenshot](documentation/responsiveness/responsive-mobile-contact.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
 | Tablet (DevTools) | ![screenshot](documentation/responsiveness/responsive-tablet-home.png) | ![screenshot](documentation/responsiveness/responsive-tablet-about.png) | ![screenshot](documentation/responsiveness/responsive-tablet-contact.png) | ![screenshot](documentation/responsiveness/responsive-tablet-etc.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
 | Desktop | ![screenshot](documentation/responsiveness/responsive-desktop-home.png) | ![screenshot](documentation/responsiveness/responsive-desktop-about.png) | ![screenshot](documentation/responsiveness/responsive-desktop-contact.png) | ![screenshot](documentation/responsiveness/responsive-desktop-etc.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsiveness/responsive-xl-home.png) | ![screenshot](documentation/responsiveness/responsive-xl-about.png) | ![screenshot](documentation/responsiveness/responsive-xl-contact.png) | ![screenshot](documentation/responsiveness/responsive-xl-etc.png) | ![screenshot](documentation/responsiveness/) | Scaling starts to have minor issues |
 | 4K Monitor | ![screenshot](documentation/responsiveness/chrome-home-4k.png) | ![screenshot](documentation/responsiveness/chrome-workouts-4k.png) | ![screenshot](documentation/responsiveness/chrome-recipes-4k.png) | ![screenshot](documentation/responsiveness/chrome-404-4k.png) | ![screenshot](documentation/responsiveness/chrome-confirmation-4k.png) | Minor scaling issues with hero image |
 | Google Pixel 7 Pro | ![screenshot](documentation/responsiveness/chrome-home-pixel-7-pro.png) | ![screenshot](documentation/responsiveness/chrome-workouts-pixel-7-pro.png) | ![screenshot](documentation/responsiveness/chrome-recipes-pixel-7-pro.png) | ![screenshot](documentation/responsiveness/chrome-404-pixel-7-pro.png) | ![screenshot](documentation/responsiveness/chrome-confirmation-pixel-7-pro.png) | Works as expected |
-| iPhone 4 | ![screenshot](documentation/responsiveness/responsive-iphone-home.png) | ![screenshot](documentation/responsiveness/responsive-iphone-about.png) | ![screenshot](documentation/responsiveness/responsive-iphone-contact.png) | ![screenshot](documentation/responsiveness/responsive-iphone-etc.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
+
 | repeat for any other tested browsers | x | x | x | x | x |
 
 ## Lighthouse Audit
