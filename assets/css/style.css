@@ -310,9 +310,9 @@ details {
 #recipe-nav div>h3 {
     justify-content: center;
     align-content: center;
-    margin: 0 10%;
+    margin: 0 2%;
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Recipe Navigation (End) */
@@ -653,10 +653,6 @@ footer {
     #recipe-3 .recipe-img,
     #recipe-4 .recipe-img {
         height: auto;
-    }
-
-    #recipe-nav div>h3 {
-        font-size: 16px;
     }
 
     .recipe-nav-class,
