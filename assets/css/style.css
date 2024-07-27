@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 /* General Styles*/
@@ -73,7 +73,8 @@ header li:hover {
     box-shadow: 0 2px 2px black;
     padding: 0.25em;
     border-radius: 8px;
-    margin: -7px; /* Prevents the text from shifting when hovering */
+    margin: -7px;
+    /* Prevents the text from shifting when hovering */
 }
 
 .menu {
@@ -315,6 +316,17 @@ details {
     font-size: 16px;
 }
 
+#recipe-nav>a>div:hover {
+    background-size: 125%;
+    /* Makes recipe nav background images zoom in on hover */
+}
+
+#recipe-nav>a>#nav-2:hover {
+    background-size: 158%;
+    /* Makes recipe nav-2 background image zoom in on hover (separate from other navs due to image aspect ratio */
+}
+
+
 /* Recipe Navigation (End) */
 
 /* Competition Navbar (Start) */
@@ -519,6 +531,7 @@ footer {
 #competition a {
     text-decoration: none;
 }
+
 /* Competition Form Confirmation Page (End) */
 
 /* Error 404 Page (Start) */
@@ -552,6 +565,7 @@ footer {
 #error a {
     text-decoration: none;
 }
+
 /* Error 404 Page (End) */
 /* Hides the full size footer logo on mobile phones */
 #full-sized-footer-logo {
@@ -833,8 +847,10 @@ footer {
 
         #error ol,
         #competition ol {
-            list-style-position: inside; /* Code snippet taken from https://www.w3schools.com/css/css_list.asp */
+            list-style-position: inside;
+            /* Code snippet taken from https://www.w3schools.com/css/css_list.asp */
         }
+
         /* Error 404 & Competition Confirmation Page (End) */
     }
 
