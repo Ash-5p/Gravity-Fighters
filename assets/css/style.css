@@ -266,11 +266,13 @@ details {
     box-shadow: black 0 2px 2px;
 }
 
-
-#recipe-nav
+#recipes>div>.ingredients>h4,
+#recipes>div>.preparation>h4 {
+    text-align: start;
+}
 
 /* Recipe Navigation (Start) */
-    {
+#recipe-nav {
     display: flex;
     flex-wrap: wrap;
     font-size: 10px;
@@ -361,11 +363,6 @@ details {
 
 #recipes h3 {
     margin-top: 10px;
-}
-
-#recipes ul>h4,
-#recipes ol>h4 {
-    text-align: left;
 }
 
 #recipes ol,

@@ -65,11 +65,12 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-|  | 404.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+|  | 404.html | ![screenshot](documentation/validation/validation-404.png) | |
+|  | confirmation.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 |  | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 |  | recipes.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 |  | workouts.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-|  | confirmation.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 
 ### CSS
 
@@ -144,15 +145,15 @@ Sample responsiveness testing documentation:
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Home | About | Contact | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsiveness/responsive-mobile-home.png) | ![screenshot](documentation/responsiveness/responsive-mobile-about.png) | ![screenshot](documentation/responsiveness/responsive-mobile-contact.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsiveness/responsive-tablet-home.png) | ![screenshot](documentation/responsiveness/responsive-tablet-about.png) | ![screenshot](documentation/responsiveness/responsive-tablet-contact.png) | ![screenshot](documentation/responsiveness/responsive-tablet-etc.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsiveness/responsive-desktop-home.png) | ![screenshot](documentation/responsiveness/responsive-desktop-about.png) | ![screenshot](documentation/responsiveness/responsive-desktop-contact.png) | ![screenshot](documentation/responsiveness/responsive-desktop-etc.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsiveness/responsive-xl-home.png) | ![screenshot](documentation/responsiveness/responsive-xl-about.png) | ![screenshot](documentation/responsiveness/responsive-xl-contact.png) | ![screenshot](documentation/responsiveness/responsive-xl-etc.png) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsiveness/responsive-4k-home.png) | ![screenshot](documentation/responsiveness/responsive-4k-about.png) | ![screenshot](documentation/responsiveness/responsive-4k-contact.png) | ![screenshot](documentation/responsiveness/responsive-4k-etc.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsiveness/responsive-pixel-home.png) | ![screenshot](documentation/responsiveness/responsive-pixel-about.png) | ![screenshot](documentation/responsiveness/responsive-pixel-contact.png) | ![screenshot](documentation/responsiveness/responsive-pixel-etc.png) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsiveness/responsive-iphone-home.png) | ![screenshot](documentation/responsiveness/responsive-iphone-about.png) | ![screenshot](documentation/responsiveness/responsive-iphone-contact.png) | ![screenshot](documentation/responsiveness/responsive-iphone-etc.png) | Works as expected |
+| Device | Home | Workouts | Recipes | 404 | Confirmation | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Mobile (DevTools) | ![screenshot](documentation/responsiveness/responsive-mobile-home.png) | ![screenshot](documentation/responsiveness/responsive-mobile-about.png) | ![screenshot](documentation/responsiveness/responsive-mobile-contact.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/responsiveness/responsive-tablet-home.png) | ![screenshot](documentation/responsiveness/responsive-tablet-about.png) | ![screenshot](documentation/responsiveness/responsive-tablet-contact.png) | ![screenshot](documentation/responsiveness/responsive-tablet-etc.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
+| Desktop | ![screenshot](documentation/responsiveness/responsive-desktop-home.png) | ![screenshot](documentation/responsiveness/responsive-desktop-about.png) | ![screenshot](documentation/responsiveness/responsive-desktop-contact.png) | ![screenshot](documentation/responsiveness/responsive-desktop-etc.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
+| XL Monitor | ![screenshot](documentation/responsiveness/responsive-xl-home.png) | ![screenshot](documentation/responsiveness/responsive-xl-about.png) | ![screenshot](documentation/responsiveness/responsive-xl-contact.png) | ![screenshot](documentation/responsiveness/responsive-xl-etc.png) | ![screenshot](documentation/responsiveness/) | Scaling starts to have minor issues |
+| 4K Monitor | ![screenshot](documentation/responsiveness/chrome-home-4k.png) | ![screenshot](documentation/responsiveness/chrome-workouts-4k.png) | ![screenshot](documentation/responsiveness/chrome-recipes-4k.png) | ![screenshot](documentation/responsiveness/chrome-404-4k.png) | ![screenshot](documentation/responsiveness/chrome-confirmation-4k.png) | Minor scaling issues with hero image |
+| Google Pixel 7 Pro | ![screenshot](documentation/responsiveness/chrome-home-pixel-7-pro.png) | ![screenshot](documentation/responsiveness/chrome-workouts-pixel-7-pro.png) | ![screenshot](documentation/responsiveness/chrome-recipes-pixel-7-pro.png) | ![screenshot](documentation/responsiveness/chrome-404-pixel-7-pro.png) | ![screenshot](documentation/responsiveness/chrome-confirmation-pixel-7-pro.png) | Works as expected |
+| iPhone 4 | ![screenshot](documentation/responsiveness/responsive-iphone-home.png) | ![screenshot](documentation/responsiveness/responsive-iphone-about.png) | ![screenshot](documentation/responsiveness/responsive-iphone-contact.png) | ![screenshot](documentation/responsiveness/responsive-iphone-etc.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
 | repeat for any other tested browsers | x | x | x | x | x |
 
 ## Lighthouse Audit
