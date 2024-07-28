@@ -524,10 +524,6 @@ footer {
     padding: 10px;
 }
 
-#competition a {
-    text-decoration: none;
-}
-
 /* Competition Form Confirmation Page (End) */
 
 /* Error 404 Page (Start) */
@@ -556,10 +552,6 @@ footer {
 #error li,
 #error>p {
     padding: 10px;
-}
-
-#error a {
-    text-decoration: none;
 }
 
 /* Error 404 Page (End) */
