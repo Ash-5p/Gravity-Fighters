@@ -113,8 +113,8 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Browser | Home | Workouts | Recipes | 404 | Confirmation | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Chrome | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-workouts.png) | ![screenshot](documentation/browsers/browser-chrome-recipes.png) | ![screenshot](documentation/browsers/browser-chrome-404.png) | ![screenshot](documentation/browsers/browser-chrome-confirmation.png) | Works as expected |
-| Edge | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
-| Opera | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
+| Edge | ![screenshot](documentation/browsers/browser-edge-home.png) | ![screenshot](documentation/browsers/browser-edge-workouts.png) | ![screenshot](documentation/browsers/browser-edge-recipes.png) | ![screenshot](documentation/browsers/browser-edge-404.png) | ![screenshot](documentation/browsers/browser-edge-confirmation.png) | Works as expected |
+| Opera | ![screenshot](documentation/browsers/browser-opera-home.png) | ![screenshot](documentation/browsers/browser-opera-workouts.png) | ![screenshot](documentation/browsers/browser-opera-recipes.png) | ![screenshot](documentation/browsers/browser-opera-404.png) | ![screenshot](documentation/browsers/browser-opera-confirmation.png) | Works as expected |
 
 | repeat for any other tested browsers | x | x | x | x | x |
 
