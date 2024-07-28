@@ -176,11 +176,11 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Minor issues with response time |
-| Workouts | ![screenshot](documentation/lighthouse/lighthouse-workouts-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-workouts-desktop.png) | Minor issues with response time |
-| Recipes | ![screenshot](documentation/lighthouse/lighthouse-recipes-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-recipes-desktop.png) | Minor issues with response time due to large images |
-| Confirmation | ![screenshot](documentation/lighthouse/lighthouse-confirmation-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-confirmation-desktop.png) | Minor accessability issue caused by page redirection feature (feature needed for confirmation page) |
-| 404 | ![screenshot](documentation/lighthouse/lighthouse-404-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-404-desktop.png) |  |
+| Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Issues with response time on mobile due to large hero image. Minor issues with response time on desktop |
+| Workouts | ![screenshot](documentation/lighthouse/lighthouse-workouts-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-workouts-desktop.png) | Issues with response time on mobile due to large layout shifts. Minor issues with response time on desktop |
+| Recipes | ![screenshot](documentation/lighthouse/lighthouse-recipes-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-recipes-desktop.png) | Issues with response time on mobile due to large images. Minor issues with response time on desktop |
+| Confirmation | ![screenshot](documentation/lighthouse/lighthouse-confirmation-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-confirmation-desktop.png) | Minor issues with performance on mobile. Minor accessability issue caused by page redirection feature (feature needed for confirmation page) |
+| 404 | ![screenshot](documentation/lighthouse/lighthouse-404-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-404-desktop.png) | Issues with performance on mobile due to layout shifts. No issues on desktop |
 
 
 ## User Story Testing
