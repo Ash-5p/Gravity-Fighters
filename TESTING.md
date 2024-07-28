@@ -112,7 +112,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Home | Workouts | Recipes | 404 | Confirmation | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
+| Chrome | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-workouts.png) | ![screenshot](documentation/browsers/browser-chrome-recipes.png) | ![screenshot](documentation/browsers/browser-chrome-404.png) | ![screenshot](documentation/browsers/browser-chrome-confirmation.png) | Works as expected |
 | Edge | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
 | Opera | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
 
@@ -120,36 +120,15 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 ## Responsiveness
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is for the following 3 tests:
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of the tested responsiveness, to "prove" that you've actually tested them.
-
-Using the "amiresponsive" mockup image (or similar) does not suffice the requirements.
-Consider using some of the built-in device sizes in the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well.
-It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-Sample responsiveness testing documentation:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
 | Device | Home | Workouts | Recipes | 404 | Confirmation | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsiveness/.png) | ![screenshot](documentation/responsiveness/.png) | ![screenshot](documentation/responsiveness/responsive-mobile-contact.png) | ![screenshot](documentation/responsiveness/.png) | ![screenshot](documentation/responsiveness/.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsiveness/.png) | ![screenshot](documentation/responsiveness/responsive-tablet-about.png) | ![screenshot](documentation/responsiveness/responsive-tablet-contact.png) | ![screenshot](documentation/responsiveness/responsive-tablet-etc.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsiveness/responsive-desktop-home.png) | ![screenshot](documentation/responsiveness/responsive-desktop-about.png) | ![screenshot](documentation/responsiveness/responsive-desktop-contact.png) | ![screenshot](documentation/responsiveness/responsive-desktop-etc.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
-| 4K Monitor | ![screenshot](documentation/responsiveness/chrome-home-4k.png) | ![screenshot](documentation/responsiveness/chrome-workouts-4k.png) | ![screenshot](documentation/responsiveness/chrome-recipes-4k.png) | ![screenshot](documentation/responsiveness/chrome-404-4k.png) | ![screenshot](documentation/responsiveness/chrome-confirmation-4k.png) | Minor scaling issues with hero image |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsiveness/chrome-home-pixel-7-pro.png) | ![screenshot](documentation/responsiveness/chrome-workouts-pixel-7-pro.png) | ![screenshot](documentation/responsiveness/chrome-recipes-pixel-7-pro.png) | ![screenshot](documentation/responsiveness/chrome-404-pixel-7-pro.png) | ![screenshot](documentation/responsiveness/chrome-confirmation-pixel-7-pro.png) | Works as expected |
+| Mobile (DevTools) | ![screenshot](documentation/responsiveness/responsive-mobile-home.png) | ![screenshot](documentation/responsiveness/responsive-mobile-workouts.png) | ![screenshot](documentation/responsiveness/responsive-mobile-recipes.png) | ![screenshot](documentation/responsiveness/responsive-mobile-404.png) | ![screenshot](documentation/responsiveness/responsive-mobile-confirmation.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/responsiveness/responsive-tablet-home.png) | ![screenshot](documentation/responsiveness/responsive-tablet-workouts.png) | ![screenshot](documentation/responsiveness/responsive-tablet-recipes.png) | ![screenshot](documentation/responsiveness/responsive-tablet-404.png) | ![screenshot](documentation/responsiveness/responsive-tablet-confirmation.png) | Works as expected |
+| Desktop | ![screenshot](documentation/responsiveness/responsive-desktop-home.png) | ![screenshot](documentation/responsiveness/responsive-desktop-workouts.png) | ![screenshot](documentation/responsiveness/responsive-desktop-recipes.png) | ![screenshot](documentation/responsiveness/responsive-desktop-404.png) | ![screenshot](documentation/responsiveness/responsive-desktop-confirmation.png) | Works as expected |
+| 4K Monitor | ![screenshot](documentation/responsiveness/responsive-4k-home.png) | ![screenshot](documentation/responsiveness/responsive-4k-workouts.png) | ![screenshot](documentation/responsiveness/responsive-4k-recipes.png) | ![screenshot](documentation/responsiveness/responsive-4k-404.png) | ![screenshot](documentation/responsiveness/responsive-4k-confirmation.png) | Minor scaling issues with hero image |
+| Google Pixel 7 Pro | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-home.png) | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-workouts.png) | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-recipes.png) | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-404.png) | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-confirmation.png) | Works as expected |
 
 | repeat for any other tested browsers | x | x | x | x | x |
 
