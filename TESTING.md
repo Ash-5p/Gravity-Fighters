@@ -176,10 +176,12 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Some minor warnings |
-| About | ![screenshot](documentation/lighthouse/lighthouse-about-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-about-desktop.png) | Some minor warnings |
-| Gallery | ![screenshot](documentation/lighthouse/lighthouse-gallery-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-gallery-desktop.png) | Slow response time due to large images |
-| x | x | x | repeat for any other tested pages/sizes |
+| Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Minor issues with response time |
+| Workouts | ![screenshot](documentation/lighthouse/lighthouse-workouts-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-workouts-desktop.png) | Minor issues with response time |
+| Recipes | ![screenshot](documentation/lighthouse/lighthouse-recipes-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-recipes-desktop.png) | Minor issues with response time due to large images |
+| Confirmation | ![screenshot](documentation/lighthouse/lighthouse-confirmation-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-confirmation-desktop.png) | Minor accessability issue caused by page redirection feature (feature needed for confirmation page) |
+| 404 | ![screenshot](documentation/lighthouse/lighthouse-404-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-404-desktop.png) |  |
+
 
 ## User Story Testing
 
