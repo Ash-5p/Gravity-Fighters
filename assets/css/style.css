@@ -337,9 +337,7 @@ details {
 }
 
 #nav-5 {
-    width: 100%;
     height: 50px;
-    margin: 10px;
     border: #fafafa 2px solid;
     box-shadow: 0 2px 2px black;
     color: #fafafa;
@@ -827,7 +825,7 @@ footer {
     }
 
     #recipes {
-        width: 1024px;
+        max-width: 1024px;
         margin-left: auto;
         margin-right: auto;
     }

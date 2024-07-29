@@ -3,61 +3,7 @@
 > [!NOTE]  
 > Return back to the [README.md](README.md) file.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-In this section, you need to convince the assessors that you have conducted enough testing to legitimately believe that the site works well.
-Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended,
-with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Feature-by-Feature Testing:
-
-Go through each feature of your portfolio site and detail the testing process for each.
-
-Explain the functionality and demonstrate how it aligns with the intended purpose. This could include:
-
-- Navigation: All navigation links have been tested manually, and take the user to the intended location.
-- Responsive Design: Checking for compatibility across various devices and screen sizes.
-- Portfolio Display: Verifying that projects are properly showcased with accurate descriptions, images, and links.
-- Contact Form: Testing the form submission process, ensuring the user receives a confirmation, and you receive the message.
-
-User Experience Testing:
-
-- Usability Testing: Have users (or simulated users) interact with the site and provide feedback. Document any issues encountered and the resolutions implemented.
-- Accessibility Testing: Confirm compliance with accessibility standards (e.g., screen reader compatibility, proper alt text for images, keyboard navigation).
-
-Compatibility Testing:
-
-- Browser Compatibility: Testing on different browsers (Chrome, Firefox, Safari, Edge, etc.) to ensure consistent performance.
-- Device Compatibility: Ensuring functionality across various devices (desktops, laptops, tablets, and mobile phones).
-- Performance Testing (optional):
-	- Speed and Load Testing: Tools like PageSpeed Insights or GTmetrix to check page load times and optimize where necessary.
-	- Scalability Testing: Assess how the site handles increased traffic or usage.
-
-Regression Testing:
-
-After implementing fixes or updates, ensure that previous features and functionalities still work as intended. This prevents new changes from breaking existing features.
-
-Documentation and Logs:
-
-Maintain records of testing procedures, results, and any bugs encountered along with their resolutions. This helps demonstrate a systematic approach to testing and problem-solving.
-User Feedback Incorporation:
-
-If applicable, mention how user feedback has been taken into account and implemented to enhance the user experience.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 ## Code Validation
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use the space to discuss code validation for any of your own code files (where applicable).
-You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
-
-**IMPORTANT**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ### HTML
 
@@ -82,32 +28,6 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 ## Browser Compatibility
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use this space to discuss testing the live/deployed site on various browsers.
-
-Consider testing AT LEAST 3 different browsers, if available on your system.
-
-You DO NOT need to use all of the browsers below, just pick any 3 (minimum).
-
-Recommended browsers to consider:
-- [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
-
-**IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
-
-Please note, there are services out there that can test multiple browser compatibilities at the same time.
-Some of these are paid services, but some are free.
-If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-Sample browser testing documentation:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Browser | Home | Workouts | Recipes | 404 | Confirmation | Notes |
@@ -115,8 +35,6 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Chrome | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-workouts.png) | ![screenshot](documentation/browsers/browser-chrome-recipes.png) | ![screenshot](documentation/browsers/browser-chrome-404.png) | ![screenshot](documentation/browsers/browser-chrome-confirmation.png) | Works as expected |
 | Edge | ![screenshot](documentation/browsers/browser-edge-home.png) | ![screenshot](documentation/browsers/browser-edge-workouts.png) | ![screenshot](documentation/browsers/browser-edge-recipes.png) | ![screenshot](documentation/browsers/browser-edge-404.png) | ![screenshot](documentation/browsers/browser-edge-confirmation.png) | Works as expected |
 | Opera | ![screenshot](documentation/browsers/browser-opera-home.png) | ![screenshot](documentation/browsers/browser-opera-workouts.png) | ![screenshot](documentation/browsers/browser-opera-recipes.png) | ![screenshot](documentation/browsers/browser-opera-404.png) | ![screenshot](documentation/browsers/browser-opera-confirmation.png) | Works as expected |
-
-| repeat for any other tested browsers | x | x | x | x | x |
 
 ## Responsiveness
 
@@ -131,23 +49,6 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Google Pixel 7 Pro | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-home.png) | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-workouts.png) | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-recipes.png) | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-404.png) | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-confirmation.png) | Works as expected |
 
 ## Lighthouse Audit
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use this space to discuss testing the live/deployed site's Lighthouse Audit reports.
-Avoid testing the local version (especially if developing in Gitpod), as this can have knock-on effects of performance.
-
-If you don't have Lighthouse in your Developer Tools,
-it can be added as an [extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk).
-
-Don't just test the home page (unless it's a single-page application).
-Make sure to test the Lighthouse Audit results for all of your pages.
-
-**IMPORTANT**: You must provide screenshots of the results, to "prove" that you've actually tested them.
-
-Sample Lighthouse testing documentation:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
@@ -199,11 +100,11 @@ Make sure to include any necessary steps you've implemented to fix the bug(s) as
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
+- Overflow on confirmation page
 
-    ![screenshot](documentation/bugs/bug01.png)
+    ![screenshot](documentation/bugs/bug-overflow.png)
 
-    - To fix this, I _____________________.
+    - To fix this, I removed the .
 
 - JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
 
