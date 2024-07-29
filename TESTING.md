@@ -102,33 +102,16 @@ Make sure to include any necessary steps you've implemented to fix the bug(s) as
 
 - Overflow on confirmation page
 
-    ![screenshot](documentation/bugs/bug-overflow.png)
+    ![screenshot](documentation/bugs/bug-confirmation-overflow.png)
 
-    - To fix this, I removed the .
+    - To fix this, I removed the css width property of the competition section.
 
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
+- Overflow on recipes page
 
-    ![screenshot](documentation/bugs/bug02.png)
+    ![screenshot](documentation/bugs/bug-recipes-overflow.png)
 
-    - To fix this, I _____________________.
+    - To fix this, I set the margin of the nav-5 div to 0.
 
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
-
-    ![screenshot](documentation/bugs/bug03.png)
-
-    - To fix this, I _____________________.
-
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
-
-    ![screenshot](documentation/bugs/bug04.png)
-
-    - To fix this, I _____________________.
-
-- Python `E501 line too long` (93 > 79 characters)
-
-    ![screenshot](documentation/bugs/bug04.png)
-
-    - To fix this, I _____________________.
 
 ## Unfixed Bugs
 
