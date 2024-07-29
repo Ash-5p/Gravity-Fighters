@@ -16,39 +16,11 @@ This project is a static website to promote a weightlifting club called "Gravity
 Click the below link to view the site on Am I Responsive:
 https://ui.dev/amiresponsive?url=https://ash-5p.github.io/Gravity-Fighters
 
----
-
-GitHub now supports CALLOUTS in Markdown files.
-There are some callouts already embedded in this application for you.
-However, if you feel that you want to add more, there are certain ones you can use.
-
-NOTE: the preview for callouts isn't yet supported in Gitpod/Codeanywhere/VSCode/etc.
-You'll have to commit/push the changes to GitHub to see it in action.
-
-> [!NOTE]  
-> BLUE: Highlights information that users should take into account, even when skimming.
-
-> [!TIP]  
-> GREEN: Optional information to help a user be more successful.
-
-> [!IMPORTANT]  
-> PURPLE: Crucial information necessary for users to succeed.
-
-> [!WARNING]  
-> YELLOW: Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]  
-> RED: Negative potential consequences of an action.
-
-Source: https://github.com/orgs/community/discussions/16925
-
-![screenshot](documentation/mockup.png)
-
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://ash-5p.github.io/Gravity-Fighters)
 
 ## UX
 
-The color scheme and blocky header fonts were chosen to give the site a slightly gritty/serious feel akin to the weightlifitng imagery used throughout the site. The text font for the headers was directly inspired by my favorite gym from my hometown (https://www.truegrittraining.co.uk/).
+The color scheme and blocky header fonts were chosen to give the site a slightly gritty/serious feel akin to the weightlifitng imagery used throughout the site. The text font for the headers was directly inspired by my favorite gym from my hometown, [True Grit Training](https://www.truegrittraining.co.uk/).
 
 ### Colour Scheme
 
@@ -80,109 +52,101 @@ I used [coolors.co](https://coolors.co/fafafa-585858-444444) to generate my colo
 
     - The header houses the site logo and navbar, and is fixed to ensure these features are always visible to the user no matter where they are on the current page.
 
-![screenshot](documentation/features/header.png)
+![screenshot](documentation/features/feature-header.png)
 
 - **Gravity Fighters Logo**
 
     - The Gravity Fighters logo immediately draws attention due to the box-shadow effect which gives it a 3D appearence. The dumbell icon lets the user know that Gravity Fighters is a weightlifting focused website. 
 
-![screenshot](documentation/features/logo-tablet.png) ![screenshot](documentation/features/logo-mobile.png)
+![screenshot](documentation/features/feature-logo-tablet.png) ![screenshot](documentation/features/feature-logo-mobile.png)
 
 - **Navbar**
 
     - The navbar provides the main means to navigate the whole site. This is attached to a fixed header, allowing user to switch between each page without having to scroll back to the top of the current page. The currently selected page with be indicated by a dumbell icon on the navbar.
 
-![screenshot](documentation/features/navbar.png)
+![screenshot](documentation/features/feature-navbar.png)
 
 - **Footer**
 
     - The footer houses another logo and all of the links to the Gravity Fighters social media pages. It serves as an indicator to the user that they have reached the bottom of the page and there is no more content below.
 
-![screenshot](documentation/features/footer.png)
+![screenshot](documentation/features/feature-footer.png)
 
 - **Social Media Icons**
 
     - The social media icons, housed in the footer, act as links to the corresponding Gravity Fighters social media pages.
 
-![screenshot](documentation/features/social-icons.png)
+![screenshot](documentation/features/feature-social-icons.png)
 
 - **Homepage**
 
     - The homepage serves as a landing point for the user and makes it immediately apparent what the site is about. It contains a hero image of a person preparing to perform a lift, and an introduction into what/who Gravity Fighters are. It also contains an overview of the types of weightlifting.
 
-![screenshot](documentation/features/home-page.png)
+![screenshot](documentation/features/feature-home.png)
 
 - **Types of Weightlifting Section**
 
     - This section provides a brief summary and a visual representation of the different types of weightlifting, allowing the user to compare them to see which format would interest them the most. Sections of the text containing key words contain links to their corrisponding wikipedia pages to encourage the user to research deeper.
 
-![screenshot](documentation/features/lifting-types.png)
+![screenshot](documentation/features/feature-lifting-types.png)
 
 - **Workouts Page**
 
     - The workouts page offers a selection of sample workouts for each of the different types of lifting talked about on the homepage. This allows users to try out each style to see whch one best suits them.
 
-![screenshot](documentation/features/workouts-page.png)
+![screenshot](documentation/features/feature-workouts.png)
 
 - **Workouts Summary/Detail**
 
     - The workouts on the workouts page are displayed using the summary/detail elements, which allow the only workout name to be shown initially until clicked on, and will then extend to reveal the full workout. This feature serves to make the page less cluttered, producing a positive response from the user, and making it obvious that their is more content below.
 
-![screenshot](documentation/features/workouts-summary.png) ![screenshot](documentation/features/workouts-detail.png)
+![screenshot](documentation/features/feature-workouts-summary.png) ![screenshot](documentation/features/feature-workouts-detail.png)
 
 - **Recipes Page**
 
     - The recipes page offers a selection of sample recipes to the user. It has its own navigation bar local to the recipes page which allows easy navigation to the desired recipe, and also contains a form to be completed by the user to enter a prize draw.
 
-![screenshot](documentation/features/recipes-page.png) 
+![screenshot](documentation/features/feature-recipes.png) 
 
 - **Recipes Page Navbar**
 
     - The recipes page navbar allows the user to quickly navigate to the desired recipe, and prompts them to enter the prize draw with a competition navigation button. The nav buttons feature a background image of the recipe they navigate to which acts as a visual preview for the user, these images zoom in on hover.   
 
-![screenshot](documentation/features/recipe-nav.png)
+![screenshot](documentation/features/feature-recipe-nav.png)
 
 - **Competition Form**
 
     - The competition form allows the user to enter a prize draw to win a years supply of protein suppliments. It consists of first name, surname, email and favourite recipe (select) fields, and requires all fields to be filled to allow submission, and takes the user to a confirmation page.
 
-![screenshot](documentation/features/competition-form.png)
+![screenshot](documentation/features/feature-competition-form.png)
+
+- **Competition Form Confrimation Page**
+
+    - This page allows the user to know that they have submitted the form correctly and entered the competition. It automatically redirects the user to the homepage after 20 seconds.
+
+![screenshot](documentation/features/feature-confirmation.png)
+
+- **Error 404 Page**
+
+    - The custom error 404 page is inkeeping with the theme of the website, and uses humor to reduce the negative feeling of encountering an error. This offers a more positive response from the user than a generic 404 page.
+
+![screenshot](documentation/features/feature-404.png)
 
 ### Future Features
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 - Extend Recipes Section
     - Due to time constraints I only added 4 recipes to the this section, however I plan to add more in the future.
+
 - Macro Calculator
     - I plan to add another page containing a macro calculator and an overview which will explain the benefits of tracking macros. I currently don't possess the knowledge/skill to do this, so I plan to implement this when I have progressed further in the code institute fullstack development course.
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#3
-    - Any additional notes about this feature.
+
 
 ## Tools & Technologies Used
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 - [![Markdown Builder](https://img.shields.io/badge/Markdown_Builder-grey?logo=markdown&logoColor=000000)](https://tim.2bn.dev/markdown-builder) used to generate README and TESTING templates.
 - [![Git](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [![GitHub](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com) used for secure online code storage.
-- ⚠️⚠️ CHOOSE ONLY ONE <-- delete me ⚠️⚠️
 - [![Gitpod](https://img.shields.io/badge/Gitpod-grey?logo=gitpod&logoColor=FFAE33)](https://gitpod.io) used as a cloud-based IDE for development.
-- ⚠️⚠️ CHOOSE ALL APPLICABLE <-- delete me ⚠️⚠️
 - [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [![CSS](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site.
@@ -241,34 +205,11 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+There are no notable differences between the local and deployed site.
 
 ## Credits
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 ### Content
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-⚠️⚠️ EXAMPLE LINKS - REPLACE WITH YOUR OWN ⚠️⚠️
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 | Source | Location | Notes |
 | --- | --- | --- |
@@ -282,23 +223,12 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | [TrainHeroic](https://www.trainheroic.com/blog/olympic-weightlifting-program/) | workouts.html | content for olympic weightlifting workouts (Day1/Day2/Day3/Day4)|
 | [Healthline](https://www.healthline.com/health/fitness/one-rep-max-how-to-calculate-and-use#how-to-calculate) | workouts.html | content of powerlifting workouts (1RM Test) |
 | [w3schools](https://www.w3schools.com/css/css_list.asp) | 404.html & confirmation.html | list-style-position: inside;  |
-| [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+5/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) | entire site | used as guide for header html structure|
-| [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+5/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) | entire site | used as guide for header css styling |
-| [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+5/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) | entire site | used as guide for footer css styling |
-
-
+| [Code Institute](https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/8.1-testing-and-validation/index.html#L24-L39) | entire site | used as guide for header html structure|
+| [Code Institute](https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/8.1-testing-and-validation/assets/css/style.css#L32-L43) | entire site | used as guide for header css styling |
+| [Code Institute](https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/8.1-testing-and-validation/index.html#L132-L155) | entire site | used as guide for footer html structure |
+| [Code Institute](https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/8.1-testing-and-validation/assets/css/style.css#L256-L262) | entire site | used as guide for footer css styling |
 
 ### Media
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
@@ -313,15 +243,6 @@ by sending yourself the following command: `!freemedia`.
 | [Image Resizer](https://imageresizer.com/image-compressor/editor) | recipes.html | image | used to compress image size of protein pancakes |
 
 ### Acknowledgements
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-⚠️⚠️ EXAMPLES ONLY - REPLACE WITH YOUR OWN ⚠️⚠️
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
