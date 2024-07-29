@@ -130,8 +130,6 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | 4K Monitor | ![screenshot](documentation/responsiveness/responsive-4k-home.png) | ![screenshot](documentation/responsiveness/responsive-4k-workouts.png) | ![screenshot](documentation/responsiveness/responsive-4k-recipes.png) | ![screenshot](documentation/responsiveness/responsive-4k-404.png) | ![screenshot](documentation/responsiveness/responsive-4k-confirmation.png) | Minor scaling issues with hero image |
 | Google Pixel 7 Pro | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-home.png) | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-workouts.png) | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-recipes.png) | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-404.png) | ![screenshot](documentation/responsiveness/responsive-pixel-7-pro-confirmation.png) | Works as expected |
 
-| repeat for any other tested browsers | x | x | x | x | x |
-
 ## Lighthouse Audit
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)

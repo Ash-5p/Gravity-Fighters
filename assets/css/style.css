@@ -529,6 +529,7 @@ footer {
 /* Error 404 Page (Start) */
 #error {
     margin: 40px 30px 30px 30px;
+    text-align: center;
 }
 
 #error-heading {
@@ -552,6 +553,12 @@ footer {
 #error li,
 #error>p {
     padding: 10px;
+}
+
+#error ol,
+#competition ol {
+    list-style-position: inside;
+    /* Code snippet taken from https://www.w3schools.com/css/css_list.asp */
 }
 
 /* Error 404 Page (End) */
@@ -721,146 +728,126 @@ footer {
         height: 112px;
         width: 50%;
     }
+}
 
-    /* Footer (End) */
+/* Footer (End) */
 
-    /* Media query: Laptops and larger (992px and up) */
-    @media screen and (min-width:992px) {
+/* Media query: Laptops and larger (992px and up) */
+@media screen and (min-width:992px) {
 
-        /* Header (Start)*/
-        header {
-            height: 125px;
-            font-size: 125%;
-        }
-
-        /* Pushes main section down to accomodate taller header */
-        main {
-            margin-top: 125px;
-        }
-
-        /* Header (End)*/
-
-        /* Workouts (Start)*/
-        #workout-lists {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #workout-lists>div {
-            width: 700px;
-        }
-
-        /* Workouts (End)*/
+    /* Header (Start)*/
+    header {
+        height: 125px;
+        font-size: 125%;
     }
 
-    /* Media query: Larger laptops and PC screens (1024px and up) */
-    @media screen and (min-width:1024px) {
-
-        /* Main Content (Start) */
-        p {
-            text-align: center;
-        }
-
-        /* Hero (Start) */
-        #hero {
-            height: 600px;
-        }
-
-        #hero-text {
-            font-size: 120%;
-            width: 400px;
-            left: 100px;
-            bottom: 300px;
-            padding: 30px;
-        }
-
-        /* Hero (End) */
-
-        .content p {
-            font-size: 18px;
-        }
-
-        .content h2 {
-            font-size: 250%;
-        }
-
-        .content h3 {
-            font-size: 200%;
-        }
-
-        #lifting-types hr {
-            display: none;
-        }
-
-        /* Types of lifting section (Start) */
-        .lifting-class {
-            flex-basis: 500px;
-            padding: 20px;
-            text-align: center;
-        }
-
-        #lifting-types {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-around;
-        }
-
-        .details-class p {
-            font-size: 16px;
-        }
-
-        /* Types of lifting section (End) */
-
-        /* Recipes (Start) */
-        #recipe-nav a {
-            width: 22%;
-        }
-
-        #recipes {
-            width: 1024px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        /* Recipes (End) */
-        /* Main Content (End) */
-
-
-        /* Error 404 & Competition Confirmation Page (Start) */
-        #error {
-            text-align: center;
-        }
-
-        #error ol,
-        #competition ol {
-            list-style-position: inside;
-            /* Code snippet taken from https://www.w3schools.com/css/css_list.asp */
-        }
-
-        /* Error 404 & Competition Confirmation Page (End) */
+    /* Pushes main section down to accomodate taller header */
+    main {
+        margin-top: 125px;
     }
 
-    /* Media query: Wide Resolution PC screens (1440px and up) */
-    @media screen and (min-width:1440px) {
+    /* Header (End)*/
 
-        #hero {
-            height: 500px;
-            background: url(../images/hero.webp) no-repeat 50% 85% /cover;
-        }
+    /* Workouts (Start)*/
+    #workout-lists {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-        #about,
-        #lifting-types {
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 1520px;
-        }
+    #workout-lists>div {
+        width: 700px;
+    }
 
-        #error,
-        #competition {
-            margin: 40px auto 30px auto;
-            width: 1440px;
-        }
+    /* Workouts (End)*/
+}
+
+/* Media query: Larger laptops and PC screens (1024px and up) */
+@media screen and (min-width:1024px) {
+
+    /* Main Content (Start) */
+    p {
+        text-align: center;
+    }
+
+    /* Hero (Start) */
+    #hero {
+        height: 600px;
+    }
+
+    #hero-text {
+        font-size: 120%;
+        width: 400px;
+        left: 100px;
+        bottom: 300px;
+        padding: 30px;
+    }
+
+    /* Hero (End) */
+
+    .content p {
+        font-size: 18px;
+    }
+
+    .content h2 {
+        font-size: 250%;
+    }
+
+    .content h3 {
+        font-size: 200%;
+    }
+
+    #lifting-types hr {
+        display: none;
+    }
+
+    /* Types of lifting section (Start) */
+    .lifting-class {
+        flex-basis: 500px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #lifting-types {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .details-class p {
+        font-size: 16px;
+    }
+
+    /* Types of lifting section (End) */
+
+    /* Recipes (Start) */
+    #recipe-nav a {
+        width: 22%;
+    }
+
+    #recipes {
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Recipes (End) */
+    /* Main Content (End) */
+}
+
+/* Media query: Wide Resolution PC screens (1440px and up) */
+@media screen and (min-width:1440px) {
+
+    #hero {
+        height: 500px;
+        background: url(../images/hero.webp) no-repeat 50% 85% /cover;
+    }
+
+    #about,
+    #lifting-types {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1520px;
     }
 }
