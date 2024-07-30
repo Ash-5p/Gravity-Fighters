@@ -37,7 +37,8 @@ p {
 
 /* Header (Start) */
 header {
-    background-color: rgb(88, 88, 88);
+    /* Code snippet borrowed from Love Running (see README.md) */
+    background-color: #585858;
     color: #fafafa;
     box-shadow: 0 2px 2px #404040;
     height: 100px;
@@ -455,6 +456,7 @@ footer {
 }
 
 #social-networks {
+    /* Code snippet borrowed from Love Running (see README.md) */
     text-align: center;
     padding: 5px;
     display: flex;
@@ -555,8 +557,8 @@ footer {
 
 #error ol,
 #competition ol {
+    /* Code snippet borrowed from https://www.w3schools.com/css/css_list.asp */
     list-style-position: inside;
-    /* Code snippet taken from https://www.w3schools.com/css/css_list.asp */
 }
 
 /* Error 404 Page (End) */
@@ -587,6 +589,8 @@ footer {
     }
 
     /* Hero (End) */
+
+    /* Types of lifting section (Start) */
     #about,
     #lifting-types>h2,
     #lifting-types>p {
@@ -619,6 +623,8 @@ footer {
         margin: 10px;
         border-radius: 50%;
     }
+
+    /* Types of lifting section (End) */
 
     /* Recipes Page (Start) */
     /* I used https://www.w3schools.com/css/css_rwd_grid.asp to learn how to position objects using display:grid; */
